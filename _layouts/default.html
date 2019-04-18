@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'fr' }}">
+
+{%- include head.html -%}
+
+<body>
+
+  {%- include header.html -%}
+
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+
+      {%- include about.html -%}
+      
+      {%- if site.data[site.lang].projects.contents.size > 0 -%}
+        {%- include projects.html -%}
+      {%- endif -%}
+
+      {%- if site.data[site.lang].experience.contents.size > 0 -%}
+        {%- include experience.html -%}
+      {%- endif -%}
+
+      {%- if site.data[site.lang].education.contents.size > 0 -%}
+        {%- include education.html -%}
+      {%- endif -%}
+
+      {%- include more.html -%}
+
+
+    </div>
+  </main>
+
+  {%- include footer.html -%}
+
+</body>
+
+</html>

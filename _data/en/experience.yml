@@ -1,0 +1,11 @@
+# Experience template
+title: Experience
+contents:
+  - company: IPPON Technologies
+    link: https://en.ippon.tech/
+    job_title: 
+    dates: Date Range (eg. November 2016 - present)
+    quote: >
+      Short description of the company (optional)
+    description: | # this will include new lines to allow paragraphs
+      Description of role

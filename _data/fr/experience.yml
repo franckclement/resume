@@ -1,0 +1,11 @@
+# Experience template
+title: Expérience
+contents:
+  - company: IPPON Techologies
+    link: https://fr.ippon.tech/
+    job_title: Ingénieur d'étude et développement mobile
+    dates: Septembre 2014 - Maintenant
+    quote: >
+      Short description of the company (optional)
+    description: | # this will include new lines to allow paragraphs
+      Description of role
