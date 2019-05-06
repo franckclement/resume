@@ -9,21 +9,6 @@ lang-paths:
   - en:
       base-url: "/en/"
 
-# Personal info
-name: Franck CLEMENT
-title: Ingénieur Mobile
-email: franck.clmnt@gmail.com
-phone: (+33) 6 33 92 76 50
-# website: Your website (eg. https://google.com)(optional)
-
-# Social links
-twitter_username: Francklement
-github_username: franckclement
-linkedin_username: franck-clmnt
-
-# Footer
-footer_show_references: true
-
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
 # remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)

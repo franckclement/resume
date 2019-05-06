@@ -1,8 +1,8 @@
 <div class="container header-contianer">
   <div class="row">
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 header-left">
-      <h1>{{ site.name | escape }}</h1>
-      <h2>{{ site.title | escape }}</h2>
+      <h1>{{ site.data[site.lang].header.name | escape }}</h1>
+      <h2>{{ site.data[site.lang].header.title | escape }}</h2>
     </div>
 
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 header-right">
@@ -19,77 +19,77 @@
       </p>
 
       <ul class="icons no-print">
-        {%- if site.dribbble_username -%}
+        {%- if site.data[site.lang].header.dribbble_username -%}
           <li>
-            <a target="_blank" href="https://dribbble.com/{{ site.dribbble_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
+            <a target="_blank" href="https://dribbble.com/{{ site.data[site.lang].header.dribbble_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
               <i class="fa fa-dribbble" title="Dribble link"></i>
             </a>
           </li>
         {%- endif -%}
-        {%- if site.facebook_username -%}
+        {%- if site.data[site.lang].header.facebook_username -%}
           <li>
-            <a target="_blank" href="https://www.facebook.com/{{ site.facebook_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
+            <a target="_blank" href="https://www.facebook.com/{{ site.data[site.lang].header.facebook_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
               <i class="fa fa-facebook" title="Facebook link"></i>
             </a>
           </li>
         {%- endif -%}
-        {%- if site.flickr_username -%}
+        {%- if site.data[site.lang].header.flickr_username -%}
           <li>
-            <a target="_blank" href="https://www.flickr.com/photos/{{ site.flickr_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
+            <a target="_blank" href="https://www.flickr.com/photos/{{ site.data[site.lang].header.flickr_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
               <i class="fa fa-flickr" title="Flickr link"></i>
             </a>
           </li>
         {%- endif -%}
-        {%- if site.github_username -%}
+        {%- if site.data[site.lang].header.github_username -%}
           <li>
-            <a target="_blank" href="https://github.com/{{ site.github_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
+            <a target="_blank" href="https://github.com/{{ site.data[site.lang].header.github_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
               <i class="fa fa-github" title="Github link"></i>
             </a>
           </li>
         {%- endif -%}
-        {%- if site.instagram_username -%}
+        {%- if site.data[site.lang].header.instagram_username -%}
           <li>
-            <a target="_blank" href="https://www.instagram.com/{{ site.instagram_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
+            <a target="_blank" href="https://www.instagram.com/{{ site.data[site.lang].header.instagram_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
               <i class="fa fa-instagram" title="Instagram link"></i>
             </a>
           </li>
         {%- endif -%}
-        {%- if site.linkedin_username -%}
+        {%- if site.data[site.lang].header.linkedin_username -%}
           <li>
-            <a target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
+            <a target="_blank" href="https://www.linkedin.com/in/{{ site.data[site.lang].header.linkedin_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
               <i class="fa fa-linkedin" title="Linkedin link"></i>
             </a>
           </li>
         {%- endif -%}
-        {%- if site.xing_username -%}
+        {%- if site.data[site.lang].header.xing_username -%}
           <li>
-            <a target="_blank" href="https://www.xing.com/profile/{{ site.xing_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
+            <a target="_blank" href="https://www.xing.com/profile/{{ site.data[site.lang].header.xing_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
               <i class="fa fa-xing" title="Xing link"></i>
             </a>
           </li>
         {%- endif -%}
-        {%- if site.pinterest_username -%}
+        {%- if site.data[site.lang].header.pinterest_username -%}
           <li>
-            <a target="_blank" href="https://www.pinterest.com/{{ site.pinterest_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
+            <a target="_blank" href="https://www.pinterest.com/{{ site.data[site.lang].header.pinterest_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
               <i class="fa fa-pinterest" title="Pintrest link"></i>
             </a>
           </li>
         {%- endif -%}
-        {%- if site.twitter_username -%}
+        {%- if site.data[site.lang].header.twitter_username -%}
           <li>
-            <a target="_blank" href="https://twitter.com/{{ site.twitter_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
+            <a target="_blank" href="https://twitter.com/{{ site.data[site.lang].header.twitter_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
               <i class="fa fa-twitter" title="Twitter link"></i>
             </a>
           </li>
         {%- endif -%}
-        {%- if site.youtube_username -%}
+        {%- if site.data[site.lang].header.youtube_username -%}
           <li>
             <a target="_blank" href="https://www.youtube.com/{{ site.youtube_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
               <i class="fa fa-youtube-play" title="Youtube link"></i>
             </a>
           </li>
         {%- endif -%}
-        {%- if site.googleplus_username -%}
+        {%- if site.data[site.lang].header.googleplus_username -%}
           <li>
             <a target="_blank" href="https://plus.google.com/{{ site.googleplus_username| escape }}" class="button button--sacnite button--round-l">
               <i class="fa fa-google-plus" title="Google plus link"></i>
@@ -98,19 +98,23 @@
         {%- endif -%}
       </ul>
 
-      {%- if site.email -%}
+      {%- if site.data[site.lang].header.email -%}
         <p>
-          Email: <a href="mailto:{{ site.email }}" target="_blank">{{ site.email | escape }}</a>
+          Email: <a href="mailto:{{ site.data[site.lang].header.email }}" target="_blank">{{ site.data[site.lang].header.email | escape }}</a>
         </p>
       {%- endif -%}
-      {%- if site.phone -%}
+      {%- if site.data[site.lang].header.phone -%}
         <p>
-          Phone: {{ site.phone | escape }}
+          Phone: {{ site.data[site.lang].header.phone | escape }}
         </p>
       {%- endif -%}
-      {%- if site.website -%}
+
+      {%- if site.data[site.lang].header.website -%}
+      {% capture website %}
+        site.data[site.lang].header.website
+      {% endcapture %}
         <p>
-          Web: {% include a.html href=site.website %}{{ site.website | escape }}</a>
+          Web: {% include a.html href=website %}{{ website | escape }}</a>
         </p>
       {%- endif -%}
     </div>

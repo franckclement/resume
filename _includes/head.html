@@ -15,7 +15,7 @@
         <meta http-equiv="refresh" content="5; url=/">
   {% endif %}
 
-  <title>{{ site.name }} | {{ site.title }}</title>
+  <title>{{ site.data[site.lang].header.name }} | {{ site.data[site.lang].header.title }}</title>
   {%- seo title=false -%}
 
   <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">

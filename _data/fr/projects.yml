@@ -1,10 +1,93 @@
 # Project template
 title: Projets
 contents:
-  - name: Project name
-    link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-    github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
+  - name: Carpix
+    client: BCA Expertise
     quote: >
-      Short overview of the project (optional)
+      Je suis intervenu sur le développement de deux applications natives iOS et Android de prise de photos.  
+      l'App centralise les photos de sinistres automobiles prises par les experts de chez BCA,
+      tout en assurant la synchronisation avec le SI de BCA. La synchronisation des dossiers de photos 
+      se fait via une connexion bluetooth entre l'application mobile et une tablette professionnelle Windows ou par le réseau.
     description: | # this will include new lines to allow paragraphs
-      Description about the work on/with the project
+      Le développement de Carpix couvre les sujets suivants :
+      - Scanner de QRCode propulsé par ML Kit
+      - Transfert Bluetooth, via scocket RFCOMM
+      - Prise de photos, import depuis la galerie, copie des photos d'un dossier existant vers un autre, ...
+      - Synchronisation des photos de l'app avec la gallerie du smartphone
+      - Upload de photos
+
+      iOS : <mark>Swift</mark> <mark>RxSwift</mark> <mark>MVVM + Coordinator</mark> <mark>PhotoKit</mark> <mark>Realm</mark>
+      <mark>ML Kit</mark> <mark>Fabric</mark> <mark>Firebase</mark> <mark>Fastlane</mark> <mark>Gitlab-CI</mark>  
+      Android : <mark>Kotlin</mark> <mark>Android AAC</mark> <mark>Android Jetpack</mark> <mark>Firebase</mark> <mark>Fabric</mark>
+      <mark>ML Kit</mark> <mark>Fuel</mark> <mark>Room</mark> <mark>Koin</mark> <mark>LiveData</mark> <mark>Fastlane</mark> <mark>Gitlab-CI</mark>
+
+  - name: Plateforme d'intégration continue mobile
+    client: Interne (IPPON)
+    quote: >
+      Conception et mise en place d'une plateforme d'intégration continue on-premise
+    description: | # this will include new lines to allow paragraphs
+      Le projet de plateforme d'intégration continue mobile chez IPPON a été lancée pour industrialiser, automatiser et augmenter la qualité des livrables applicatifs mobiles.
+      Le but étant de maîtriser la chaîne de build pour nos applications internes ainsi que les applications de nos clients. En bonus, nous n'exportons aucune des sources de nos clients en dehors de notre réseau interne.
+      Les applications sont buildées, testées, signées et deployées on-premise sur des Mac minis au sein du réseau IPPON.  
+      Cette plateforme supporte les applications natives iOS et Android ainsi que des applications Hybrides Ionic, Flutter, React-Native.
+
+      <mark>Git</mark> <mark>GitLab</mark> <mark>GitLab-CI</mark> <mark>Gitflow</mark> <mark>Fastlane</mark> <mark>Fabric</mark>
+      <mark>TestFlight</mark> <mark>AppStore</mark> <mark>Playstore</mark>
+
+  - name: Fashion Community
+    client: Luxe
+    quote: >
+      Reprise d'une application iOS instagram-like existante pour un acteur du luxe français. Amélioration de 90% du temps nécéssaire à la connexion à l'application, refonte complète de la navigation et refonte graphique associée.
+    description: | # this will include new lines to allow paragraphs
+      Ce projet a été réalisée en trois parties. Premièrement l'amélioration des performances de l'application, et notamment du temps de connexion à l'application. Par la suite, une refonte graphique et de navigation a été réalisée, remplaçant la navigation burger en tabbar. 
+      Et enfin, des évolutions fonctionnelles telles que l'ajout de bookmarks et de boards (dossiers de bookmarks) aux profils des utilisateurs, leur permettant de classer leurs posts favoris.
+
+      <mark>Swift</mark> <mark>RxSwift</mark> <mark>MVVM + Coordinator</mark> <mark>Auto Layout</mark>
+
+  - name: AssurOnLine
+    client: AssurOne Group
+    quote: >
+      Refonte de l'application mobile AssurOnLine, avec ajout de fonctionalités
+    description: | # this will include new lines to allow paragraphs
+      Ce projet était l'ocasion de mettre à jour l'application client vieillissante d'AssurOne. Incluant une migration Objective-C vers Swift 3.  
+      Fonctionnellement, c'est l'ajout d'un tunnel de contractualisation de devis, la déclaration et le suivis de sinistre ainsi que la refonte graphique qui ont réprésenté le plus gros challenge.
+
+      <mark>Swift</mark> <mark>RxSwift</mark> <mark>MVVM + Coordinator</mark> <mark>Auto Layout</mark>
+
+  - name: AssurOnLine - Volkswagen
+    client: AssurOne Group
+    quote: >
+      Reprise de l'application AssurOnLine en marque blanche avec gestion de template aux couleurs des marques du groupe Volkswagen.
+    description: | # this will include new lines to allow paragraphs
+      Transformation de l'application originale AssurOnLine pour en faire une base marque blanche et y appliquer des thèmes aux couleurs de différentes marques automobiles (VW, Audi, Skoda, Seat).
+      Le projet contient une target par déclinaison graphique, avec une très grosse partie du code fonctionnel en commun entre les chaque déclinaisons.
+
+      <mark>Objective-C</mark> <mark>Xcode</mark> <mark>CocoaPods</mark> <mark>Multi-Targets</mark>
+  
+  - name: Interface de monitoring
+    client: Luxe
+    quote: >
+      Création d'une interface de monitoring des événements de logging d'une librairie iOS déployée sur des iPads en magasin.
+    description: | # this will include new lines to allow paragraphs
+      L'interface permet l'affichage, la détection et la compréhension d'éventuels problèmes dans les logs d'événements liés aux opérations de la librairie iOS.
+      L'interface tabulaire propose également de nombreux filtres applicables aux événements.
+
+      <mark>AngularJS</mark> <mark>HTML 5</mark> <mark>smart-table</mark>
+
+  - name: Saisie des prospects
+    client: Casden
+    quote: >
+      Réalisation d'une application de prospection à destination d'iPads.
+    description: | # this will include new lines to allow paragraphs
+      
+
+      <mark>Cordova</mark> <mark>ionic</mark> <mark>AngularJS</mark> <mark>PouchDB</mark>
+
+# - name: Carpix
+#     client: client name
+#     link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+#     github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
+#     quote: >
+#       Short overview of the project (optional)
+#     description: | # this will include new lines to allow paragraphs
+#       Description about the work on/with the project
