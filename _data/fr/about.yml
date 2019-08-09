@@ -1,23 +1,22 @@
 # About Template
 title : À Propos De Moi
 content : |
-  J'ai commencé à m'intéresser au développement mobile en 2012 et c'est devenu mon activité professionnelle à ma sortie d'études en 2014. 
-  Depuis, je suis intervenu sur un bon nombre d'applications mobiles natives Android et iOS. J'ai aussi eu l'occasion de développer des applications hybrides avec des technologies comme 
-  Ionic, ou Flutter.
+  Mon attrait pour le développement mobile lors de sa découverte en 2012 m'a naturellement poussé à me diriger vers cette activité professionnelle dès ma sortie d’études en 2014.
+  Je suis depuis intervenu sur un grand nombre d’applications mobiles natives Android et iOS, mais aussi hybrides avec des Frameworks comme Ionic, ou Flutter.
 
-  Fort de ces expériences sur des technologies hybrides et natives, je sais quand il est raisonnable de choisir une solution hydribe plutôt que native. Je reste un fervant défenseur des technologies natives, qui sont à mon avis les plus à même de fournir une base de code saine et maintenable,
-  tout en garantissant un rendu et une navigation à la hauteur de mes exigences.
-  
-  J'ai également une forte appétence pour le développement iOS pour lequel je suis en veille constante. J'ai adopté Swift dès sa mise à disposition du public en 2014.
-  Premièrement dans un rôle d'expérimentation tant que le language n'était pas prêt pour le développement d'applications en production. Pour ensuite l'utiliser dans tous les nouveaux projets, à partir de sa version 3.0.
+  Fort de ces expériences passées, j'apprécie apporter mon expertise dans le choix d'une solution adaptée au besoin et contraintes du client.
+  Je reste cependant un fervant défenseur des technologies natives, qui sont à mon sens les plus à même de fournir une base de code saine et pérenne, tout en garantissant un rendu et une navigation à la hauteur de mes exigences.
 
-  Avec l'expérience, j'ai pu diversifier mes qualifications. La participation aux chiffrages de projets mobiles ou la soutenance d'appels d'offres m'ont permis d'avoir une bonne vision
-  de l'écosystème mobile en général.
-  
-  Je suis sensible au rendu final d'une application ainsi qu'à son expérience utilisateur, c'est pourquoi j'ai participé à la validation des parcours utilisateurs et des maquettes de l'équipe
-  UX/UI chez IPPON. Ma passion pour l'écosystème iOS m'a permis de valider ou d'invalider certains parcours en cohérence avec les guidelines de la plateforme.
+  J’ai également une forte appétence pour le développement iOS, qui se traduit par une veille constante.
+  J’ai adopté Swift dès sa mise à disposition du public en 2014, d'abord dans un rôle d’expérimentation lors des premières releases, puis dans son intégration au sein de nouveaux projets iOS dès sa version 3.0.
 
-  Ces deux dernières années, j'ai eu un rôle de *Lead Tech* sur chacun des projets sur lesquels je suis intervenu. Avec en tâche de fond la mise en place d'une plateforme d'intégration continue mobile, que j'ai eu la chance de presenter
-  au Web2Day (Festival Tech Nantais) en juin 2019.
+  Avec l’expérience, j’ai pu diversifier mes qualifications ; la participation aux chiffrages, avant ventes et soutenance d’appels d’offres m’ont permis d’acquérir le recul nécessaire sur les choix techniques et une vision globale de l’écosystème mobile.
+
+  Ma sensibilité quant au rendu final d’une application ainsi qu’à son expérience utilisateur m'a amenée à participer à la validation des wireframes et maquettes de l’équipe UX/UI Mobile chez IPPON.
+  La connaissance et la compréhension de l’écosystème iOS m’ont permis d'être force de proposition sur les parcours proposés, toujours dans le respect des guidelines de la plateforme.
+
+  Ces deux dernières années, mon expertise a été confirmée à travers le rôle de *Lead Tech* assumé sur chacun des projets sur lesquels je suis intervenu.
+  Ceci m'a donné la possibilité de mettre en place une plateforme d’intégration continue mobile, garante de la qualité des développements et des livrables associés,
+  que j’ai eu la chance de présenter au Web2Day (Festival Tech Nantais) en juin 2019.
 
 profile_image: assets/profile.jpg
