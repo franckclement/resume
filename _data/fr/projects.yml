@@ -42,10 +42,10 @@ contents:
     platform: iOS
     platform-icon: 📱
     quote: >
-      Reprise d'une application iOS instagram-like existante pour un acteur du luxe français. Amélioration de 90% du temps nécéssaire à la connexion à l'application, refonte complète de la navigation et refonte graphique associée.
+      Reprise d'une application iOS instagram-like existante pour un acteur du luxe français. Amélioration de 90% du temps nécessaire à la connexion à l'application, refonte complète de la navigation et refonte graphique associée.
     description: | # this will include new lines to allow paragraphs
-      Ce projet a été réalisée en trois parties. Premièrement l'amélioration des performances de l'application, et notamment du temps de connexion à l'application. Par la suite, une refonte graphique et de navigation a été réalisée, remplaçant la navigation burger en tabbar. 
-      Et enfin, des évolutions fonctionnelles telles que l'ajout de bookmarks et de boards (dossiers de bookmarks) aux profils des utilisateurs, leur permettant de classer leurs posts favoris.
+      Ce projet a été réalisé en trois parties. Premièrement l'amélioration des performances de l'application, et notamment du temps de connexion à l'application. Par la suite, une refonte graphique et de navigation a été réalisée, remplaçant la navigation burger en tabbar. 
+      Et enfin, des évolutions fonctionnelles telles que l'ajout de bookmarks et de boards (dossiers de bookmarks) au profil des utilisateurs, leur permettant de classer leurs posts favoris.
 
       <mark>Swift</mark> <mark>RxSwift</mark> <mark>MVVM + Coordinator</mark> <mark>Auto Layout</mark> <mark>URL Scheme</mark>
 
@@ -57,7 +57,7 @@ contents:
       Refonte de l'application mobile AssurOnLine, avec ajout de fonctionnalités
     description: | # this will include new lines to allow paragraphs
       Ce projet était l'occasion de mettre à jour l'application vieillissante d'AssurOne. Incluant une migration Objective-C vers Swift 3.  
-      Fonctionnellement, c'est l'ajout d'un tunnel de contractualisation de devis, la déclaration et le suivis de sinistre ainsi que la refonte graphique qui ont représenté le plus gros challenge.
+      Fonctionnellement, c'est l'ajout d'un tunnel de contractualisation de devis, la déclaration et le suivi de sinistre ainsi que la refonte graphique qui ont représenté le plus gros challenge.
 
       <mark>Swift</mark> <mark>RxSwift</mark> <mark>MVVM + Coordinator</mark> <mark>Auto Layout</mark>
 
@@ -69,7 +69,7 @@ contents:
       Reprise de l'application AssurOnLine en marque blanche avec gestion de template aux couleurs des marques du groupe Volkswagen.
     description: | # this will include new lines to allow paragraphs
       Transformation de l'application originale AssurOnLine pour en faire une base marque blanche et y appliquer des thèmes aux couleurs de différentes marques automobiles (VW, Audi, Skoda, Seat).
-      Le projet contient une target par déclinaison graphique, avec une très grosse partie du code fonctionnel en commun entre les chaque déclinaisons.
+      Le projet contient une target par déclinaison graphique, avec une très grosse partie du code fonctionnel en commun entre chaque déclinaison.
 
       <mark>Objective-C</mark> <mark>Xcode</mark> <mark>CocoaPods</mark> <mark>Multi-Targets</mark>
 
@@ -92,7 +92,7 @@ contents:
     platform-icon: 📱
     quote: >
       Réalisation d'une application mobile native Android destinée au déchargement de conditionnements de déchets amiantés.
-      Elle remplace un processus de communication sur papier entre l'accueil du site d'enfouissement de déchêts et les équipes de déchargements.
+      Elle remplace un processus de communication sur papier entre l'accueil du site d'enfouissement de déchets et les équipes de déchargements.
     description: | # this will include new lines to allow paragraphs
       L'application présente les conditionnements à décharger avec au choix une vue plan du camion, représentant les conditionnements tels qu'ils sont positionnés dans le camion, ou une vue liste des conditionnements.
       La pesée se fait automatiquement à l'aide d'une balance industrielle qui communique le poids à l'application. Le poids de chaque conditionnement est ensuite communiqué au SI de Suez.
@@ -132,11 +132,11 @@ contents:
       Création d'un framework iOS compatible iOS 7+ respectant le document d'architecture fourni. Ce framework est embarqué dans l'application boutique du client, disponible dans chaque magasin de la marque, sur iPad.
     description: | # this will include new lines to allow paragraphs
       Le framework va chercher des .zip contenant des collections de produits, et les prix associés. Les .zip sont disponibles sur le SI du client. 
-      Le framework fait du polling sur les resources de manière régulière, si un nouveau package est disponible, il est téléchargé,
-      extrait et son contenu est déposé dans le système de fichier de l'application qui l'embarque. Ces actions sont faites en arrières plan et ordonnancées par le framework. 
-      Les anciennes resources sont supprimés et les nouvelles collections de produits sont consultables sur l'application boutique.
+      Le framework fait du polling sur les ressources de manière régulière, si un nouveau package est disponible, il est téléchargé,
+      extrait et son contenu est déposé dans le système de fichier de l'application qui l'embarque. Ces actions sont faites en arrière-plan et ordonnancées par le framework. 
+      Les anciennes ressources sont supprimées et les nouvelles collections de produits sont consultables sur l'application boutique.
       
-      Le framework à un cycle de vie automatisé et loggue chacune de ses actions qu'il transmet au SI du client.
+      Le framework a un cycle de vie automatisé et loggue chacune de ses actions qu'il transmet ensuite au SI du client.
 
       <mark>Dynamic Framework</mark> <mark>Objective-C</mark> <mark>Xcode</mark> <mark>Grand Central Dispatch (GCD)</mark>
 
@@ -157,11 +157,11 @@ contents:
     platform-icon: 📱
     platform: iOS
     quote: >
-      L'application iOS Mobile Test Harness est un outils de test du SDK Transactionnel que propose HID à ses clients.
+      L'application iOS Mobile Test Harness est un outil de test du SDK Transactionnel que propose HID à ses clients.
     description: | # this will include new lines to allow paragraphs
-      Ce projet couvre la conception et développement de l'application. Pendant la conception nous avons élaborés conjointement avec les équipes HID un ensemble d'actions xml-like définissant des petits scénarios compréhensibles par l'application.
-      Ces petits scénarios sont lus et interprété par l'application qui va ensuite exécuter les actions du scénario.
-      L'application test ainsi 100% des points d'entrée du SDK.
+      Ce projet couvre la conception et développement de l'application. Pendant la conception nous avons élaboré conjointement avec les équipes HID un ensemble d'actions XML-like définissant des petits scénarios compréhensibles par l'application.
+      Ces petits scénarios sont lus et interprétés par l'application qui va ensuite exécuter les actions du scénario.
+      L'application teste ainsi 100% des points d'entrée du SDK.
 
       * Support iOS 5 à 8.2
       * Couverture de 100% des points d'entrée du SDK
@@ -169,7 +169,7 @@ contents:
       * Parsing/Mapping XML
       * Validation XSD des scénarios de test
 
-      <mark>Xcode</mark> <mark>Objective-C</mark> <mark>CocoaPods</mark> <mark>Notifications Push</mark>
+      <mark>Xcode</mark> <mark>Objective-C</mark> <mark>CocoaPods</mark> <mark>Notifications Push</mark> <mark>GCD</mark>
 
   - name: Watchabox
     client: Watchabox
@@ -179,7 +179,7 @@ contents:
       Réalisation d'une application Android Wear proposant des cadrans de montre à l'éffigie de Watchabox.
     description: | # this will include new lines to allow paragraphs
       L'application propose une dizaine de cadrans différents, initialement conçus pour la montre ronde Motorola 360.
-      Certains cadrans proposent des fonctionnalités spécifiques, notamment un chronomètre numérique, analogique, la rotation des couronnes pour les phases de plongée, ...
+      Certains cadrans proposent des fonctionnalités spécifiques, notamment un chronomètre numérique, analogique, la rotation des couronnes, ...
 
       <mark>Android</mark> <mark>Android Studio</mark> <mark>Android Wear</mark>
 
