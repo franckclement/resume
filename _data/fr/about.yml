@@ -1,12 +1,23 @@
 # About Template
 title : À Propos De Moi
 content : |
-  
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  J'ai commencé à m'intéresser au développement mobile en 2012 et c'est devenu mon activité professionnelle à ma sortie d'études en 2014. 
+  Depuis, je suis intervenu sur un bon nombre d'applications mobiles natives Android et iOS. J'ai aussi eu l'occasion de développer des applications hybrides avec des technologies comme 
+  Ionic, ou Flutter.
 
-  You can even add paragraphs by using empty lines like this and add anything else markdown supports such as
-    - Lists
-    - Tables
-    - Links
-    - Images  
-# profile_image: Directory of profile image (eg. images/profile.jpg)
+  Fort de ces expériences sur des technologies hybrides et natives, je sais quand il est raisonnable de choisir une solution hydribe plutôt que native. Je reste un fervant défenseur des technologies natives, qui sont à mon avis les plus à même de fournir une base de code saine et maintenable,
+  tout en garantissant un rendu et une navigation à la hauteur de mes exigences.
+  
+  J'ai également une forte appétence pour le développement iOS pour lequel je suis en veille constante. J'ai adopté Swift dès sa mise à disposition du public en 2014.
+  Premièrement dans un rôle d'expérimentation tant que le language n'était pas prêt pour le développement d'applications en production. Pour ensuite l'utiliser dans tous les nouveaux projets, à partir de sa version 3.0.
+
+  Avec l'expérience, j'ai pu diversifier mes qualifications. La participation aux chiffrages de projets mobiles ou la soutenance d'appels d'offres m'ont permis d'avoir une bonne vision
+  de l'écosystème mobile en général.
+  
+  Je suis sensible au rendu final d'une application ainsi qu'à son expérience utilisateur, c'est pourquoi j'ai participé à la validation des parcours utilisateurs et des maquettes de l'équipe
+  UX/UI chez IPPON. Ma passion pour l'écosystème iOS m'a permis de valider ou d'invalider certains parcours en cohérence avec les guidelines de la plateforme.
+
+  Ces deux dernières années, j'ai eu un rôle de *Lead Tech* sur chacun des projets sur lesquels je suis intervenu. Avec en tâche de fond la mise en place d'une plateforme d'intégration continue mobile, que j'ai eu la chance de presenter
+  au Web2Day (Festival Tech Nantais) en juin 2019.
+
+profile_image: assets/profile.jpg

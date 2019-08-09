@@ -10,6 +10,11 @@
         {%- if project.client -%}
         <p><b>{{ project.client }}</b></p>
         {%- endif -%}
+        {%- if project.platform -%}
+        <p>{%- if project.platform-icon -%}{{ project.platform-icon }}{%- endif -%}
+          <i>{{ project.platform }}</i>
+        </p>
+        {%- endif -%}
         {%- if project.github -%}
         <p class="no-print">
           <a href="https://github.com/{{ project.github }}" target="_blank">

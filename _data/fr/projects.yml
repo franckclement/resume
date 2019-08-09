@@ -3,18 +3,19 @@ title: Projets
 contents:
   - name: Carpix
     client: BCA Expertise
+    platform: iOS & Android
+    platform-icon: 📱
     quote: >
       Je suis intervenu sur le développement de deux applications natives iOS et Android de prise de photos.  
-      l'App centralise les photos de sinistres automobiles prises par les experts de chez BCA,
-      tout en assurant la synchronisation avec le SI de BCA. La synchronisation des dossiers de photos 
-      se fait via une connexion bluetooth entre l'application mobile et une tablette professionnelle Windows ou par le réseau.
+      L'application centralise les photos de sinistres automobiles par dossiers. Elle s'assure également de la synchronisation avec le SI de BCA.
+      La synchronisation des dossiers de photos se fait via une connexion bluetooth entre l'application mobile et une tablette professionnelle Windows ou par le réseau.
     description: | # this will include new lines to allow paragraphs
       Le développement de Carpix couvre les sujets suivants :
       - Scanner de QRCode propulsé par ML Kit
       - Transfert Bluetooth, via scocket RFCOMM
       - Prise de photos, import depuis la galerie, copie des photos d'un dossier existant vers un autre, ...
-      - Synchronisation des photos de l'app avec la gallerie du smartphone
-      - Upload de photos
+      - Synchronisation des photos de l'app avec la galerie du smartphone
+      - Upload de photos (HTTP Post + form-data)
 
       iOS : <mark>Swift</mark> <mark>RxSwift</mark> <mark>MVVM + Coordinator</mark> <mark>PhotoKit</mark> <mark>Realm</mark>
       <mark>ML Kit</mark> <mark>Fabric</mark> <mark>Firebase</mark> <mark>Fastlane</mark> <mark>Gitlab-CI</mark>  
@@ -23,39 +24,47 @@ contents:
 
   - name: Plateforme d'intégration continue mobile
     client: Interne (IPPON)
+    platform: DevOps
+    platform-icon: ⚙️
     quote: >
       Conception et mise en place d'une plateforme d'intégration continue on-premise
     description: | # this will include new lines to allow paragraphs
-      Le projet de plateforme d'intégration continue mobile chez IPPON a été lancée pour industrialiser, automatiser et augmenter la qualité des livrables applicatifs mobiles.
+      Le projet de plateforme d'intégration continue mobile chez IPPON a été lancée pour industrialiser, automatiser et améliorer la qualité des applications mobiles.
       Le but étant de maîtriser la chaîne de build pour nos applications internes ainsi que les applications de nos clients. En bonus, nous n'exportons aucune des sources de nos clients en dehors de notre réseau interne.
       Les applications sont buildées, testées, signées et deployées on-premise sur des Mac minis au sein du réseau IPPON.  
-      Cette plateforme supporte les applications natives iOS et Android ainsi que des applications Hybrides Ionic, Flutter, React-Native.
+      Cette plateforme supporte les applications natives iOS et Android ainsi que des applications Hybrides Ionic, Flutter et React-Native.
 
       <mark>Git</mark> <mark>GitLab</mark> <mark>GitLab-CI</mark> <mark>Gitflow</mark> <mark>Fastlane</mark> <mark>Fabric</mark>
       <mark>TestFlight</mark> <mark>AppStore</mark> <mark>Playstore</mark>
 
   - name: Fashion Community
-    client: Luxe
+    client: Client Luxe Français
+    platform: iOS
+    platform-icon: 📱
     quote: >
       Reprise d'une application iOS instagram-like existante pour un acteur du luxe français. Amélioration de 90% du temps nécéssaire à la connexion à l'application, refonte complète de la navigation et refonte graphique associée.
     description: | # this will include new lines to allow paragraphs
       Ce projet a été réalisée en trois parties. Premièrement l'amélioration des performances de l'application, et notamment du temps de connexion à l'application. Par la suite, une refonte graphique et de navigation a été réalisée, remplaçant la navigation burger en tabbar. 
       Et enfin, des évolutions fonctionnelles telles que l'ajout de bookmarks et de boards (dossiers de bookmarks) aux profils des utilisateurs, leur permettant de classer leurs posts favoris.
 
-      <mark>Swift</mark> <mark>RxSwift</mark> <mark>MVVM + Coordinator</mark> <mark>Auto Layout</mark>
+      <mark>Swift</mark> <mark>RxSwift</mark> <mark>MVVM + Coordinator</mark> <mark>Auto Layout</mark> <mark>URL Scheme</mark>
 
   - name: AssurOnLine
     client: AssurOne Group
+    platform: iOS
+    platform-icon: 📱
     quote: >
-      Refonte de l'application mobile AssurOnLine, avec ajout de fonctionalités
+      Refonte de l'application mobile AssurOnLine, avec ajout de fonctionnalités
     description: | # this will include new lines to allow paragraphs
-      Ce projet était l'ocasion de mettre à jour l'application client vieillissante d'AssurOne. Incluant une migration Objective-C vers Swift 3.  
-      Fonctionnellement, c'est l'ajout d'un tunnel de contractualisation de devis, la déclaration et le suivis de sinistre ainsi que la refonte graphique qui ont réprésenté le plus gros challenge.
+      Ce projet était l'occasion de mettre à jour l'application vieillissante d'AssurOne. Incluant une migration Objective-C vers Swift 3.  
+      Fonctionnellement, c'est l'ajout d'un tunnel de contractualisation de devis, la déclaration et le suivis de sinistre ainsi que la refonte graphique qui ont représenté le plus gros challenge.
 
       <mark>Swift</mark> <mark>RxSwift</mark> <mark>MVVM + Coordinator</mark> <mark>Auto Layout</mark>
 
   - name: AssurOnLine - Volkswagen
     client: AssurOne Group
+    platform: iOS
+    platform-icon: 📱
     quote: >
       Reprise de l'application AssurOnLine en marque blanche avec gestion de template aux couleurs des marques du groupe Volkswagen.
     description: | # this will include new lines to allow paragraphs
@@ -63,25 +72,144 @@ contents:
       Le projet contient une target par déclinaison graphique, avec une très grosse partie du code fonctionnel en commun entre les chaque déclinaisons.
 
       <mark>Objective-C</mark> <mark>Xcode</mark> <mark>CocoaPods</mark> <mark>Multi-Targets</mark>
-  
+
+  - name: Saisie des prospects
+    client: Casden
+    platform: Hybride
+    platform-icon: 📱
+    quote: >
+      Réalisation d'une application de prospection à destination d'iPads avec Ionic
+    description: | # this will include new lines to allow paragraphs
+      L'application propose un formulaire de contact à destination des agents CASDEN dans les salons pour démarcher des prospects. Les salons n'étant pas toujours couverts par un accès
+      internet, l'application se charge de sauvegarder de manière sécurisée ces informations sur la tablette, et de synchroniser les fiches prospects avec le réseau CASDEN lorsqu'il est disponible.
+
+
+      <mark>Cordova</mark> <mark>Ionic</mark> <mark>AngularJS</mark> <mark>PouchDB</mark>
+
+  - name: SITA GAMA
+    client: Suez
+    platform: Android
+    platform-icon: 📱
+    quote: >
+      Réalisation d'une application mobile native Android destinée au déchargement de conditionnements de déchets amiantés.
+      Elle remplace un processus de communication sur papier entre l'accueil du site d'enfouissement de déchêts et les équipes de déchargements.
+    description: | # this will include new lines to allow paragraphs
+      L'application présente les conditionnements à décharger avec au choix une vue plan du camion, représentant les conditionnements tels qu'ils sont positionnés dans le camion, ou une vue liste des conditionnements.
+      La pesée se fait automatiquement à l'aide d'une balance industrielle qui communique le poids à l'application. Le poids de chaque conditionnement est ensuite communiqué au SI de Suez.
+      Les agents peuvent saisir des anomalies lors d'un déchargement si un ou plusieurs conditionnements ne sont pas en règle (mauvais identifiant, conditionnement déchiré, ...) avec prise de photo pour documenter l'anomalie.
+
+      <mark>Android</mark> <mark>Android Studio</mark> <mark>Bluetooth</mark> <mark>RFCOMM</mark> <mark>Runtime Permissions</mark>
+
+  - name: Docasden
+    client: Casden
+    platform: Hybride
+    platform-icon: 📱
+    quote: >
+      Réalisation d'une évolution sur l'application de simulation de prêts.
+    description: | # this will include new lines to allow paragraphs
+      Cette évolution ajoute la possibilité aux clients Casden d'envoyer leurs pièces justificatives via l'application mobile.
+      Soit par prise de photo depuis l'application, soit par envoi de photo de la galerie.
+
+      <mark>Cordova</mark> <mark>Ionic</mark> <mark>AngularJS</mark> <mark>Upload de fichiers</mark>
+
   - name: Interface de monitoring
-    client: Luxe
+    client: Client Luxe Français
+    platform: Web
+    platform-icon: 🖥
     quote: >
       Création d'une interface de monitoring des événements de logging d'une librairie iOS déployée sur des iPads en magasin.
     description: | # this will include new lines to allow paragraphs
       L'interface permet l'affichage, la détection et la compréhension d'éventuels problèmes dans les logs d'événements liés aux opérations de la librairie iOS.
       L'interface tabulaire propose également de nombreux filtres applicables aux événements.
 
-      <mark>AngularJS</mark> <mark>HTML 5</mark> <mark>smart-table</mark>
+      <mark>AngularJS</mark> <mark>HTML 5</mark> <mark>Smart-Table</mark>
 
-  - name: Saisie des prospects
-    client: Casden
+  - name: DBL - Framework
+    client: Client Luxe Français
+    platform: iOS
+    platform-icon: 📱
     quote: >
-      Réalisation d'une application de prospection à destination d'iPads.
+      Création d'un framework iOS compatible iOS 7+ respectant le document d'architecture fourni. Ce framework est embarqué dans l'application boutique du client, disponible dans chaque magasin de la marque, sur iPad.
     description: | # this will include new lines to allow paragraphs
+      Le framework va chercher des .zip contenant des collections de produits, et les prix associés. Les .zip sont disponibles sur le SI du client. 
+      Le framework fait du polling sur les resources de manière régulière, si un nouveau package est disponible, il est téléchargé,
+      extrait et son contenu est déposé dans le système de fichier de l'application qui l'embarque. Ces actions sont faites en arrières plan et ordonnancées par le framework. 
+      Les anciennes resources sont supprimés et les nouvelles collections de produits sont consultables sur l'application boutique.
       
+      Le framework à un cycle de vie automatisé et loggue chacune de ses actions qu'il transmet au SI du client.
 
-      <mark>Cordova</mark> <mark>ionic</mark> <mark>AngularJS</mark> <mark>PouchDB</mark>
+      <mark>Dynamic Framework</mark> <mark>Objective-C</mark> <mark>Xcode</mark> <mark>Grand Central Dispatch (GCD)</mark>
+
+  - name: Simulation de prêts
+    client: Casden
+    platform: Hybride
+    platform-icon: 📱
+    quote: >
+      Réalisation d'une application hybride de simulation de prêt pour la Casden.
+    description: | # this will include new lines to allow paragraphs
+      L'application permet de simuler plusieurs types de prêts avec une variation de plusieurs paramètres. Elle dispose d'une partie vitrine destinée au marketing de la Casden, 
+      d'une partie simulation de prêts destinée aux clients et futurs clients ainsi qu'une carte des agences Casden outour de vous.
+
+      <mark>Cordova</mark> <mark>Ionic</mark> <mark>AngularJS</mark>
+
+  - name: Mobile Test Harness
+    client: HID Global
+    platform-icon: 📱
+    platform: iOS
+    quote: >
+      L'application iOS Mobile Test Harness est un outils de test du SDK Transactionnel que propose HID à ses clients.
+    description: | # this will include new lines to allow paragraphs
+      Ce projet couvre la conception et développement de l'application. Pendant la conception nous avons élaborés conjointement avec les équipes HID un ensemble d'actions xml-like définissant des petits scénarios compréhensibles par l'application.
+      Ces petits scénarios sont lus et interprété par l'application qui va ensuite exécuter les actions du scénario.
+      L'application test ainsi 100% des points d'entrée du SDK.
+
+      * Support iOS 5 à 8.2
+      * Couverture de 100% des points d'entrée du SDK
+      * Gestion avancée du multi-threading
+      * Parsing/Mapping XML
+      * Validation XSD des scénarios de test
+
+      <mark>Xcode</mark> <mark>Objective-C</mark> <mark>CocoaPods</mark> <mark>Notifications Push</mark>
+
+  - name: Watchabox
+    client: Watchabox
+    platform-icon: ⌚️
+    platform: Android Wear
+    quote: >
+      Réalisation d'une application Android Wear proposant des cadrans de montre à l'éffigie de Watchabox.
+    description: | # this will include new lines to allow paragraphs
+      L'application propose une dizaine de cadrans différents, initialement conçus pour la montre ronde Motorola 360.
+      Certains cadrans proposent des fonctionnalités spécifiques, notamment un chronomètre numérique, analogique, la rotation des couronnes pour les phases de plongée, ...
+
+      <mark>Android</mark> <mark>Android Studio</mark> <mark>Android Wear</mark>
+
+  - name: ExpertPass
+    client: Conseil Supérieur de l'Ordre des Experts-Comptables
+    platform-icon: 📱
+    platform: iOS
+    quote: >
+      Le projet ExpertPass propose aux Experts Comptables, Stagiaires et Permanents de l'Ordre
+      une carte d'identité professionnelle numérique certifiée sur appareils mobiles.
+    description: | # this will include new lines to allow paragraphs
+      Je suis intervenu sur un lot d'évolutions, portant sur la réceptions et le traitement de notifications push en fonction
+      du type de notification extrait du payload ainsi qu'un espace de partage de messages courts dans l'application à la façon de twitter.
+
+      <mark>Objective-C</mark> <mark>Xcode</mark> <mark>CocoaPods</mark> <mark>Notification Push</mark>
+
+  - name: ENBRIN
+    client: EDF
+    platform-icon: 📱
+    platform: iOS
+    quote: >
+      Le projet EDF ENBRIN est une application mobile sur iPad qui met à disposition des partenaires énergie Bretagne innovation,
+      un ensemble de fiches explicatives afin de mettre en avant des solutions d'économies d'énergies et les bénéfices associés.
+    description: | # this will include new lines to allow paragraphs
+      J'ai réalisé l'application ENBRIN pour EDF de la création à la livraison. C'est une application très simple de gestion et de visualisation de PDF marketings.
+      Ces PDF sont récupérés depuis le SI de EDF via des web services REST authentifiés. L'application propose un mode de visionnage des PDF lors des sessions de prospections et un mode d'administration
+      des PDF après authentification du partenaire EDF.
+
+      <mark>Objective-C</mark> <mark>Xcode</mark> <mark>CocoaPods</mark> <mark>REST</mark>
+  
 
 # - name: Carpix
 #     client: client name
