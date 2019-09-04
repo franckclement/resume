@@ -103,10 +103,13 @@
           Email: <a href="mailto:{{ site.data[site.lang].header.email }}" target="_blank">{{ site.data[site.lang].header.email | escape }}</a>
         </p>
       {%- endif -%}
-      {%- if site.data[site.lang].header.phone -%}
-        <p>
-          Phone: {{ site.data[site.lang].header.phone | escape }}
-        </p>
+      {%- if site.data[site.lang].header.phones -%}
+      <p>
+        Phone:
+      {% for phone in site.data[site.lang].header.phones %}
+         {{ phone | escape }} <br/>
+      {%- endfor -%}
+      </p>
       {%- endif -%}
 
       {%- if site.data[site.lang].header.website -%}
