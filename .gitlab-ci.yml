@@ -1,4 +1,4 @@
-image: 53hati/ruby-java
+image: "registry.gitlab.com/rpadovani/rpadovani.com:latest"
 
 cache:
   paths: 
