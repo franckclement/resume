@@ -5,7 +5,7 @@ cache:
     - vendor/
 
 before_script:
-  - gem install bundler
+  - gem install bundler --path vendor
   - bundle install --path vendor
 
 build:
