@@ -1,4 +1,4 @@
-image: thiagotrentin/ruby-java-jenkins
+image: joseronierison/ruby-java7
 
 cache:
   paths: 
