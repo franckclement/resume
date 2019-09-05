@@ -1,6 +1,6 @@
 language: ruby
 rvm:
-  - 2.1
+  - 2.3
 
 install: gem install jekyll -v 3.7.3 && gem install s3_website
 
