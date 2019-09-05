@@ -1,5 +1,4 @@
-image: duck8823/java-ruby
-
+image: 53hati/ruby-java
 
 cache:
   paths: 
