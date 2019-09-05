@@ -22,8 +22,8 @@ build:
     paths:
       - public
     expire_in: 1h
-    only:
-      - master
+  only:
+    - master
 
 deploy:
   stage: deploy
