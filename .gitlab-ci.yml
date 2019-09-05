@@ -1,4 +1,4 @@
-image: franzos/ruby-node-gulp-java
+image: louisjc/jekyll-s3-uglifyjs
 
 cache:
   paths:
