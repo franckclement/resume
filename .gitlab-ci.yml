@@ -1,42 +1,37 @@
-image: louisjc/jekyll-s3
+image: franzos/ruby-node-gulp-java
 
 cache:
-  paths: 
+  paths:
     - vendor/
 
 before_script:
-  - gem install bundler
   - bundle install --path vendor
+
+stages:
+  - build
+  - deploy
 
 build:
   stage: build
   script:
+    - yarn
+    - gulp
     - JEKYLL_ENV=production bundle exec jekyll build -d public/
   artifacts:
+    when: on_success
     paths:
       - public
-  only:
-    - master
-
-vars:
-  type: test
-  script:
-    - 'export S3_ID="$(echo "$S3_ID")" >> s3_deploy_vars'
-    - 'export S3_SECRET="$(echo "$S3_SECRET")" > s3_deploy_vars'
-    - 'export S3_BUCKET="$(echo "$S3_BUCKET")" > s3_deploy_vars'
-    - 'export CLOUDFRONT_DISTRIBUTION_ID="$(echo "$CLOUDFRONT_DISTRIBUTION_ID")" > s3_deploy_vars'
-  artifacts:
-    paths:
-      - s3_deploy_vars
-  only:
-    - master
+    expire_in: 1h
+    only:
+      - master
 
 deploy:
   stage: deploy
   script:
+    - export S3_ID="$(echo "$S3_ID")"
+    - export S3_SECRET="$(echo "$S3_SECRET")"
+    - export S3_BUCKET="$(echo "$S3_BUCKET")"
+    - export CLOUDFRONT_DISTRIBUTION_ID="$(echo "$CLOUDFRONT_DISTRIBUTION_ID")"
     - bundle exec s3_website push
-  artifacts:
-    paths:
-      - public
   only:
     - master
