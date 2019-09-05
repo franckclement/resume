@@ -16,18 +16,3 @@ RUN apk update && \
     apk add $RUBY_PACKAGES && \
     rm -rf /var/cache/apk/* && \
 		gem install bundler
-
-
-#####################################################################
-## Install ruby dependencies
-#####################################################################
-RUN bundle config --global frozen 1
-
-RUN mkdir -p /usr/install && mkdir -p /usr/deploy
-
-WORKDIR /usr/install
-
-COPY Gemfile /usr/install/
-COPY Gemfile.lock /usr/install/
-
-WORKDIR /usr/deploy
