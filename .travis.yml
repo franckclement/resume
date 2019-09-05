@@ -4,5 +4,5 @@ rvm:
 
 install: gem install jekyll -v 3.7.3 && gem install s3_website
 
-script: JEKYLL_ENV=production jekyll build
+script: JEKYLL_ENV=production bundle exec jekyll build
 after_success: s3_website push
