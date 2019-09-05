@@ -1,4 +1,4 @@
-image: registry.gitlab.com/franclement/resume:latest
+image: louisjc/jekyll-s3
 
 cache:
   paths: 
