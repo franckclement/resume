@@ -11,8 +11,14 @@
         <p><b>{{ project.client }}</b></p>
         {%- endif -%}
         {%- if project.platform -%}
-        <p>{%- if project.platform-icon -%}{{ project.platform-icon }}{%- endif -%}
-          <i>{{ project.platform }}</i>
+        <p>
+          {%- if project.platform-icon -%}
+            {{ project.platform-icon }}
+          {%- endif -%}
+          {%- if project.platform-image-path -%}
+            <img class="plateform-image" src="{{ project.platform-image-path }}"/>
+          {%- endif -%}
+          <i> {{ project.platform }}</i>
         </p>
         {%- endif -%}
         {%- if project.github -%}

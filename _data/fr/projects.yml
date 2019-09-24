@@ -21,6 +21,19 @@ contents:
       <mark>ML Kit</mark> <mark>Fabric</mark> <mark>Firebase</mark> <mark>Fastlane</mark> <mark>Gitlab-CI</mark>  
       Android : <mark>Kotlin</mark> <mark>Android AAC</mark> <mark>Android Jetpack</mark> <mark>Firebase</mark> <mark>Fabric</mark>
       <mark>ML Kit</mark> <mark>Fuel</mark> <mark>Room</mark> <mark>Koin</mark> <mark>LiveData</mark> <mark>Fastlane</mark> <mark>Gitlab-CI</mark>
+  
+  - name: Design Studio (Ds.)
+    client: Interne (IPPON)
+    platform: iOS
+    platform-icon: 📱
+    platform-image-path: assets/arkit-icon.png
+    quote: >
+      Réalisation d'une application iOS de réalité augmenté basée sur ARKit
+    description: |
+      L'application Ds. permet d'ajouter du contenu virtuel au monde réel lors d'événements organisés par Ippon. L'historique des événements passés et à venir sont présentés dans l'application.
+      L'application est capable de détecter des images de référence et applique du contenu multimédia (vidéos, boutons, images, ...) basée sur la position de l'image de référence, en temps réel.
+
+      <mark>ARKit</mark> <mark>Image Recognition</mark> 
 
   - name: Plateforme d'intégration continue mobile
     client: Interne (IPPON)
