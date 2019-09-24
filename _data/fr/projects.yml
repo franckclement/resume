@@ -28,7 +28,7 @@ contents:
     platform-icon: 📱
     platform-image-path: assets/arkit-icon.png
     quote: >
-      Réalisation d'une application iOS de réalité augmenté basée sur ARKit
+      Réalisation d'une application iOS de réalité augmentée basée sur ARKit
     description: |
       L'application Ds. permet d'ajouter du contenu virtuel au monde réel lors d'événements organisés par Ippon. L'historique des événements passés et à venir sont présentés dans l'application.
       L'application est capable de détecter des images de référence et applique du contenu multimédia (vidéos, boutons, images, ...) basée sur la position de l'image de référence, en temps réel.
