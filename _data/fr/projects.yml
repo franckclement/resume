@@ -1,6 +1,40 @@
 # Project template
 title: Projets
 contents:
+  - name: Metr
+    client: Projet personnel (WIP)
+    platform: iOS (Bientôt sur l'AppStore)
+    platform-icon: 📱
+    quote: > 
+      Metr est une application iOS de calcul automatisé de distance pour les trajets professionnels.
+    description: | # this will include new lines to allow paragraphs
+      Définissez vos lieux de départ et d'arrivée fréquents.
+      Le calcul commence dès lors que vous quittez un lieu, et s'arrête lorsque vous entrez dans un nouveau lieu, même si l'application est éteinte.
+      Pour les trajets professionnels non récurents, Metr supporte un mode de calcul manuel, déclenché par l'utilisateur.
+
+      L'utilisation du gyroscope de et l'accéleromètre de l'iPhone permet à l'application de savoir si vous commencez un trajet en voiture ou à vélo. 
+      Vous n'êtes donc pas notifié lorsque vous quittez un lieu à pied par exemple.
+
+      Metr propose un export des vos trajets par semaine ou par mois, avec une estimation des frais kilométriques associée basée sur le barème des frais
+      kilimétriques de votre pays.
+
+      <mark>SwiftUI</mark> <mark>Combine</mark> <mark>CoreData</mark> <mark>Redux</mark> <mark>Geofencing</mark> <mark>Motion Activity</mark> 
+      <mark>Local Notification</mark> <mark>Notification Quick Action</mark>
+
+  - name: Netw
+    link: https://github.com/franckclement/Netw
+    client: Projet personnel
+    platform: iOS
+    platform-icon: 📱
+    quote: > 
+      Netw est une librairie iOS open source de networking.
+    description: | # this will include new lines to allow paragraphs
+      Basée sur URLSession, Netw permet de mettre en place rapidement et simplement une stack HTTP pour consommer des webservices REST.
+
+      L'intégration de cette librairie se fait facilement via les gestionnaires de dépendences Cocoapods ou Carthage.
+
+      <mark>URLSession</mark> <mark>multipart/formdata</mark> <mark>Cocoapods</mark> <mark>Carthage</mark> <mark>Travis CI</mark> <mark>codecov</mark>
+  
   - name: Carpix
     client: BCA Expertise
     platform: iOS & Android
