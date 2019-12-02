@@ -6,7 +6,7 @@ contents:
     platform: iOS (Bientôt sur l'AppStore)
     platform-icon: 📱
     quote: > 
-      Metr est une application iOS de calcul automatisé de distance pour les trajets professionnels.
+      Metr est une application iOS de calcul de distance automatisé pour les trajets professionnels.
     description: | # this will include new lines to allow paragraphs
       Définissez vos lieux de départ et d'arrivée fréquents.
       Le calcul commence dès lors que vous quittez un lieu, et s'arrête lorsque vous entrez dans un nouveau lieu, même si l'application est éteinte.
@@ -15,8 +15,8 @@ contents:
       L'utilisation du gyroscope de et l'accéleromètre de l'iPhone permet à l'application de savoir si vous commencez un trajet en voiture ou à vélo. 
       Vous n'êtes donc pas notifié lorsque vous quittez un lieu à pied par exemple.
 
-      Metr propose un export des vos trajets par semaine ou par mois, avec une estimation des frais kilométriques associée basée sur le barème des frais
-      kilimétriques de votre pays.
+      Metr propose un export des vos trajets par semaine ou par mois, avec une estimation des frais kilométriques associés basée sur le barème des frais
+      kilométriques de votre pays.
 
       <mark>SwiftUI</mark> <mark>Combine</mark> <mark>CoreData</mark> <mark>Redux</mark> <mark>Geofencing</mark> <mark>Motion Activity</mark> 
       <mark>Local Notification</mark> <mark>Notification Quick Action</mark>
