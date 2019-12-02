@@ -18,7 +18,7 @@ contents:
       Metr propose un export des vos trajets par semaine ou par mois, avec une estimation des frais kilométriques associés basée sur le barème des frais
       kilométriques de votre pays.
 
-      <mark>SwiftUI</mark> <mark>Combine</mark> <mark>CoreData</mark> <mark>Redux</mark> <mark>Geofencing</mark> <mark>Motion Activity</mark> 
+      <mark>SwiftUI</mark> <mark>Combine</mark> <mark>CoreData</mark> <mark>CoreLocation</mark> <mark>MapKit</mark> <mark>Redux</mark> <mark>Geofencing</mark> <mark>Motion Activity</mark> 
       <mark>Local Notification</mark> <mark>Notification Quick Action</mark>
 
   - name: Netw
