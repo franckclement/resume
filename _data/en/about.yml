@@ -1,11 +1,22 @@
 # About Template
 title : About Me
 content : |
-    Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  My attraction to mobile development when I discovered it in 2012 naturally led me to pursue this professional activity upon graduating in 2014.
+  Since then, I have worked on a large number of native mobile applications for Android and iOS, as well as hybrid applications using frameworks like Ionic or Flutter.
 
-    You can even add paragraphs by using empty lines like this and add anything else markdown supports such as
-      - Lists
-      - Tables
-      - Links
-      - Images  
-# profile_image: Directory of profile image (eg. images/profile.jpg)
+  Drawing from these past experiences, I enjoy bringing my expertise to choosing a solution adapted to the client's needs and constraints.
+  However, I remain a strong advocate for native technologies, which I believe are best suited to provide a healthy and sustainable codebase, while ensuring rendering and navigation that meets my requirements.
+
+  I also have a strong appetite for iOS development, which translates into constant monitoring.
+  I adopted Swift as soon as it was made available to the public in 2014, first in an experimental role during the early releases, then integrating it into new iOS projects starting with version 3.0.
+
+  With experience, I have been able to diversify my qualifications; participation in estimates, pre-sales, and tender presentations have allowed me to gain the necessary perspective on technical choices and a global vision of the mobile ecosystem.
+
+  My sensitivity to the final rendering of an application and its user experience has led me to participate in validating wireframes and mockups from the UX/UI Mobile team at IPPON.
+  Knowledge and understanding of the iOS ecosystem have allowed me to contribute to the proposed user journeys, always respecting the platform's guidelines.
+
+  Over the past two years, my expertise has been confirmed through the *Lead Tech* role I've taken on each project I've worked on.
+  This has given me the opportunity to set up a mobile continuous integration platform, ensuring the quality of developments and associated deliverables,
+  which I had the chance to present at Web2Day (Nantes Tech Festival) in June 2019.
+
+profile_image: assets/profile.jpg
