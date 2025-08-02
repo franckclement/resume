@@ -6,17 +6,16 @@
     </div>
 
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 header-right">
-      <!-- <p>
-      {% for lang in site.languages %}
+      <div class="language-switcher">
+        {% for lang in site.languages %}
           {%- if lang == "fr" -%}
-            <a href="/" class="language-switch">{{ lang | upcase }}</a>
-            <span> - </span>          
+            <a href="/" class="language-switch {% if site.lang == 'fr' %}active{% endif %}">FR</a>
           {%- endif -%}
           {%- if lang == "en" -%}
-            <a href="/en/" class="language-switch">{{ lang | upcase }}</a>
+            <a href="/en/" class="language-switch {% if site.lang == 'en' %}active{% endif %}">EN</a>
           {%- endif -%}   
-      {% endfor %}
-      </p> -->
+        {% endfor %}
+      </div>
 
       <ul class="icons no-print">
         {%- if site.data[site.lang].header.dribbble_username -%}
