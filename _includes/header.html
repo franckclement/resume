@@ -9,10 +9,10 @@
       <div class="language-switcher">
         {% for lang in site.languages %}
           {%- if lang == "fr" -%}
-            <a href="{{ site.baseurl }}/" class="language-switch {% if site.lang == 'fr' %}active{% endif %}">FR</a>
+            <a href="{{ site.baseurl_root }}/" class="language-switch {% if site.lang == 'fr' %}active{% endif %}">FR</a>
           {%- endif -%}
           {%- if lang == "en" -%}
-            <a href="{{ site.baseurl }}/en/" class="language-switch {% if site.lang == 'en' %}active{% endif %}">EN</a>
+            <a href="{{ site.baseurl_root }}/en/" class="language-switch {% if site.lang == 'en' %}active{% endif %}">EN</a>
           {%- endif -%}   
         {% endfor %}
       </div>

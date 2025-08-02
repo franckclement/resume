@@ -5,11 +5,7 @@ url: "https://franckclement.github.io" # for GitHub Pages
 languages: ["fr", "en"]
 exclude_from_localizations: ["javascript", "images", "css"]
 
-lang-paths:
-  - fr:
-      base-url: "/"
-  - en:
-      base-url: "/en/"
+# Using default language paths: fr at root, en at /en/
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
