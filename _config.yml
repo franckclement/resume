@@ -1,4 +1,6 @@
 # Site
+baseurl: "/resume" # for GitHub Pages
+url: "https://franckclement.github.io" # for GitHub Pages
 
 languages: ["fr", "en"]
 exclude_from_localizations: ["javascript", "images", "css"]
