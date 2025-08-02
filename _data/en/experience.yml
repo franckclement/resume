@@ -3,12 +3,13 @@ title: Experience
 contents:
   - company: IPPON Technologies
     link: https://en.ippon.tech/
-    job_title: Mobile Development Engineer
+    job_title: Senior Mobile Development Engineer
     dates: September 2014 - August 2019
     quote: >
-      Ippon is a technology consulting firm, created in 2002, that supports its clients from blank page to finished product.
+      Technology consulting firm supporting clients from concept to production delivery.
     description: | # this will include new lines to allow paragraphs
-      ⚙️My role is to design, develop and improve IPPON clients' mobile projects.
-      From simple showcase applications to instagram-like apps, including framework development or mobile continuous integration platform.  
-      👨🏻‍💻I worked on all stages of conception, implementation, and deployment of mobile projects.  
-      💼I also actively participated in acquiring new projects by contributing to proposal preparation and presentation of responses to mobile tenders.
+      Designed, developed, and maintained mobile applications for diverse client portfolio ranging from showcase apps to complex social platforms.
+      Led full-cycle mobile development including architecture design, implementation, testing, and deployment.
+      Established mobile continuous integration platform ensuring code quality and automated deliverables.
+      Contributed to business development through technical proposal preparation and client presentation for mobile projects.
+      Mentored development teams and provided technical leadership across multiple concurrent projects.

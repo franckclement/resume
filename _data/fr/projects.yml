@@ -2,36 +2,33 @@
 title: Projets
 contents:
   - name: Metr
-    client: Projet personnel (WIP)
-    platform: iOS (Bientôt sur l'AppStore)
+    client: Projet Personnel
+    platform: iOS
     platform-icon: 📱
     quote: > 
-      Metr est une application iOS de calcul de distance automatisé pour les trajets professionnels.
+      Application de suivi automatisé des trajets professionnels avec détection intelligente de mouvement.
     description: | # this will include new lines to allow paragraphs
-      Définissez vos lieux de départ et d'arrivée fréquents.
-      Le calcul commence dès lors que vous quittez un lieu, et s'arrête lorsque vous entrez dans un nouveau lieu, même si l'application est éteinte.
-      Pour les trajets professionnels non récurents, Metr supporte un mode de calcul manuel, déclenché par l'utilisateur.
-
-      L'utilisation du gyroscope de et l'accéleromètre de l'iPhone permet à l'application de savoir si vous commencez un trajet en voiture ou à vélo. 
-      Vous n'êtes donc pas notifié lorsque vous quittez un lieu à pied par exemple.
-
-      Metr propose un export des vos trajets par semaine ou par mois, avec une estimation des frais kilométriques associés basée sur le barème des frais
-      kilométriques de votre pays.
+      • Suivi géolocalisé des trajets avec démarrage/arrêt automatique via geofencing
+      • Reconnaissance d'activité motrice pour différencier voiture, vélo et piéton
+      • Enregistrement manuel pour trajets professionnels ad-hoc
+      • Export hebdomadaire/mensuel avec calculs de frais kilométriques
+      • Traitement en arrière-plan avec notifications locales
 
       <mark>SwiftUI</mark> <mark>Combine</mark> <mark>CoreData</mark> <mark>CoreLocation</mark> <mark>MapKit</mark> <mark>Redux</mark> <mark>Geofencing</mark> <mark>Motion Activity</mark> 
       <mark>Local Notification</mark>
 
   - name: Netw
     link: https://github.com/franckclement/Netw
-    client: Projet personnel
+    client: Projet Open Source
     platform: iOS
     platform-icon: 📱
     quote: > 
-      Netw est une librairie iOS open source de networking.
+      Librairie iOS légère pour l'intégration d'API REST.
     description: | # this will include new lines to allow paragraphs
-      Basée sur URLSession, Netw permet de mettre en place rapidement et simplement une stack HTTP pour consommer des webservices REST.
-
-      L'intégration de cette librairie se fait facilement via les gestionnaires de dépendences Cocoapods ou Carthage.
+      • Client HTTP basé sur URLSession avec API simplifiée pour services REST
+      • Support uploads multipart/form-data et méthodes HTTP standards
+      • Intégration avec gestionnaires de dépendances populaires (CocoaPods, Carthage)
+      • Couverture de tests complète avec pipeline CI/CD
 
       <mark>URLSession</mark> <mark>multipart/formdata</mark> <mark>Cocoapods</mark> <mark>Carthage</mark> <mark>Travis CI</mark> <mark>codecov</mark>
   
@@ -40,16 +37,13 @@ contents:
     platform: iOS & Android
     platform-icon: 📱
     quote: >
-      Je suis intervenu sur le développement de deux applications natives iOS et Android de prise de photos.  
-      L'application centralise les photos de sinistres automobiles par dossiers. Elle s'assure également de la synchronisation avec le SI de BCA.
-      La synchronisation des dossiers de photos se fait via une connexion bluetooth entre l'application mobile et une tablette professionnelle Windows ou par le réseau.
+      Applications mobiles natives pour la gestion photographique de sinistres automobiles avec intégration systèmes d'entreprise.
     description: | # this will include new lines to allow paragraphs
-      Le développement de Carpix couvre les sujets suivants :
-      - Scanner de QRCode propulsé par ML Kit
-      - Transfert Bluetooth, via scocket RFCOMM
-      - Prise de photos, import depuis la galerie, copie des photos d'un dossier existant vers un autre, ...
-      - Synchronisation des photos de l'app avec la galerie du smartphone
-      - Upload de photos (HTTP Post + form-data)
+      • Système multiplateforme de capture et organisation photo pour traitement sinistres assurance
+      • Scanner QR Code alimenté par ML Kit pour identification sinistres
+      • Communication Bluetooth RFCOMM avec tablettes Windows pour synchronisation données
+      • Intégration galerie et gestion photos avec capacités upload HTTP
+      • Sécurité et synchronisation données niveau entreprise
 
       iOS : <mark>Swift</mark> <mark>RxSwift</mark> <mark>MVVM + Coordinator</mark> <mark>PhotoKit</mark> <mark>Realm</mark>
       <mark>ML Kit</mark> <mark>Fabric</mark> <mark>Firebase</mark> <mark>Fastlane</mark> <mark>Gitlab-CI</mark>  
@@ -57,42 +51,48 @@ contents:
       <mark>ML Kit</mark> <mark>Fuel</mark> <mark>Room</mark> <mark>Koin</mark> <mark>LiveData</mark> <mark>Fastlane</mark> <mark>Gitlab-CI</mark>
   
   - name: Design Studio (Ds.)
-    client: Interne (IPPON)
+    client: IPPON Technologies
     platform: iOS
     platform-icon: 📱
     platform-image-path: assets/arkit-icon.png
     quote: >
-      Réalisation d'une application iOS de réalité augmentée basée sur ARKit
+      Application réalité augmentée alimentée par ARKit pour expériences événementielles interactives.
     description: |
-      L'application Ds. permet d'ajouter du contenu virtuel au monde réel lors d'événements organisés par Ippon. L'historique des événements passés et à venir sont présentés dans l'application.
-      L'application est capable de détecter des images de référence et applique du contenu multimédia (vidéos, boutons, images, ...) basée sur la position de l'image de référence, en temps réel.
+      • Superposition contenu AR temps réel utilisant technologie reconnaissance d'images
+      • Système gestion événements avec données historiques et à venir
+      • Positionnement dynamique contenu multimédia basé sur détection images référence
+      • Éléments AR interactifs incluant vidéos, boutons et informations contextuelles
 
       <mark>ARKit</mark> <mark>Image Recognition</mark> 
 
-  - name: Plateforme d'intégration continue mobile
-    client: Interne (IPPON)
+  - name: Plateforme CI/CD Mobile
+    client: IPPON Technologies
     platform: DevOps
     platform-icon: ⚙️
     quote: >
-      Conception et mise en place d'une plateforme d'intégration continue on-premise
+      Plateforme intégration continue on-premise niveau entreprise pour applications mobiles.
     description: | # this will include new lines to allow paragraphs
-      Le projet de plateforme d'intégration continue mobile chez IPPON a été lancée pour industrialiser, automatiser et améliorer la qualité des applications mobiles.
-      Le but étant de maîtriser la chaîne de build pour nos applications internes ainsi que les applications de nos clients. En bonus, nous n'exportons aucune des sources de nos clients en dehors de notre réseau interne.
-      Les applications sont buildées, testées, signées et deployées on-premise sur des Mac minis au sein du réseau IPPON.  
-      Cette plateforme supporte les applications natives iOS et Android ainsi que des applications Hybrides Ionic, Flutter et React-Native.
+      • Conception et implémentation infrastructure CI/CD sécurisée on-premise utilisant ferme build Mac mini
+      • Pipeline automatisé build, test, signature code et déploiement multiplateformes
+      • Support applications natives iOS/Android et hybrides (Ionic, Flutter, React Native)
+      • Conformité sécurité entreprise avec isolation code source client
+      • Présentation solution conférence technique Web2Day 2019
 
       <mark>Git</mark> <mark>GitLab</mark> <mark>GitLab-CI</mark> <mark>Gitflow</mark> <mark>Fastlane</mark> <mark>Fabric</mark>
       <mark>TestFlight</mark> <mark>AppStore</mark> <mark>Playstore</mark>
 
   - name: Fashion Community
-    client: Client Luxe Français
+    client: Marque Luxe Française
     platform: iOS
     platform-icon: 📱
     quote: >
-      Reprise d'une application iOS instagram-like existante pour un acteur du luxe français. Amélioration de 90% du temps nécessaire à la connexion à l'application, refonte complète de la navigation et refonte graphique associée.
+      Optimisation performance et refonte UX d'application commerce social atteignant 90% d'amélioration temps connexion.
     description: | # this will include new lines to allow paragraphs
-      Ce projet a été réalisé en trois parties. Premièrement l'amélioration des performances de l'application, et notamment du temps de connexion à l'application. Par la suite, une refonte graphique et de navigation a été réalisée, remplaçant la navigation burger en tabbar. 
-      Et enfin, des évolutions fonctionnelles telles que l'ajout de bookmarks et de boards (dossiers de bookmarks) au profil des utilisateurs, leur permettant de classer leurs posts favoris.
+      • Optimisation performance application réduisant temps connexion de 90%
+      • Refonte complète architecture navigation du menu burger vers interface tab
+      • Refonte UI/UX et implémentation patterns interface modernes
+      • Fonctionnalités engagement utilisateur améliorées incluant bookmarks et organisation contenu
+      • Fonctionnalité commerce social avec gestion contenu généré utilisateurs
 
       <mark>Swift</mark> <mark>RxSwift</mark> <mark>MVVM + Coordinator</mark> <mark>Auto Layout</mark> <mark>URL Scheme</mark>
 
@@ -101,10 +101,13 @@ contents:
     platform: iOS
     platform-icon: 📱
     quote: >
-      Refonte de l'application mobile AssurOnLine, avec ajout de fonctionnalités
+      Refonte application mobile AssurOnLine avec migration technologique et ajout fonctionnalités métier.
     description: | # this will include new lines to allow paragraphs
-      Ce projet était l'occasion de mettre à jour l'application vieillissante d'AssurOne. Incluant une migration Objective-C vers Swift 3.  
-      Fonctionnellement, c'est l'ajout d'un tunnel de contractualisation de devis, la déclaration et le suivi de sinistre ainsi que la refonte graphique qui ont représenté le plus gros challenge.
+      • Migration technologique complète Objective-C vers Swift 3
+      • Implémentation tunnel contractualisation devis avec workflow utilisateur optimisé
+      • Développement module déclaration et suivi sinistres en temps réel
+      • Refonte graphique complète avec design system moderne
+      • Architecture MVVM + Coordinator pour maintenabilité code
 
       <mark>Swift</mark> <mark>RxSwift</mark> <mark>MVVM + Coordinator</mark> <mark>Auto Layout</mark>
 
@@ -113,10 +116,13 @@ contents:
     platform: iOS
     platform-icon: 📱
     quote: >
-      Reprise de l'application AssurOnLine en marque blanche avec gestion de template aux couleurs des marques du groupe Volkswagen.
+      Solution marque blanche multi-targets pour marques automobiles du groupe Volkswagen.
     description: | # this will include new lines to allow paragraphs
-      Transformation de l'application originale AssurOnLine pour en faire une base marque blanche et y appliquer des thèmes aux couleurs de différentes marques automobiles (VW, Audi, Skoda, Seat).
-      Le projet contient une target par déclinaison graphique, avec une très grosse partie du code fonctionnel en commun entre chaque déclinaison.
+      • Transformation application en base marque blanche modulaire
+      • Système thématisation dynamique pour marques automobiles (VW, Audi, Skoda, Seat)
+      • Architecture multi-targets avec code fonctionnel partagé optimisé
+      • Gestion centralisée assets et configurations par marque
+      • Déploiement automatisé versions spécifiques par brand
 
       <mark>Objective-C</mark> <mark>Xcode</mark> <mark>CocoaPods</mark> <mark>Multi-Targets</mark>
 
@@ -138,12 +144,14 @@ contents:
     platform: Android
     platform-icon: 📱
     quote: >
-      Réalisation d'une application mobile native Android destinée au déchargement de conditionnements de déchets amiantés.
-      Elle remplace un processus de communication sur papier entre l'accueil du site d'enfouissement de déchets et les équipes de déchargements.
+      Application Android de gestion déchargement déchets amiantés avec digitalisation processus industriel.
     description: | # this will include new lines to allow paragraphs
-      L'application présente les conditionnements à décharger avec au choix une vue plan du camion, représentant les conditionnements tels qu'ils sont positionnés dans le camion, ou une vue liste des conditionnements.
-      La pesée se fait automatiquement à l'aide d'une balance industrielle qui communique le poids à l'application. Le poids de chaque conditionnement est ensuite communiqué au SI de Suez.
-      Les agents peuvent saisir des anomalies lors d'un déchargement si un ou plusieurs conditionnements ne sont pas en règle (mauvais identifiant, conditionnement déchiré, ...) avec prise de photo pour documenter l'anomalie.
+      • Digitalisation complète processus déchargement remplaçant workflow papier
+      • Interface double affichage : vue plan camion et liste conditionnements
+      • Intégration balance industrielle via communication Bluetooth RFCOMM
+      • Pesée automatique avec transmission temps réel vers SI Suez
+      • Module gestion anomalies avec documentation photographique
+      • Conformité réglementaire environnementale et traçabilité
 
       <mark>Android</mark> <mark>Android Studio</mark> <mark>Bluetooth</mark> <mark>RFCOMM</mark> <mark>Runtime Permissions</mark>
 
@@ -152,38 +160,44 @@ contents:
     platform: Hybride
     platform-icon: 📱
     quote: >
-      Réalisation d'une évolution sur l'application de simulation de prêts.
+      Extension application simulation prêts avec module upload documents justificatifs.
     description: | # this will include new lines to allow paragraphs
-      Cette évolution ajoute la possibilité aux clients Casden d'envoyer leurs pièces justificatives via l'application mobile.
-      Soit par prise de photo depuis l'application, soit par envoi de photo de la galerie.
+      • Développement module upload documents client sécurisé
+      • Capture photo intégrée avec optimisation qualité/taille fichiers
+      • Import galerie avec validation format et compression automatique
+      • Interface utilisateur intuitive pour gestion pièces justificatives
+      • Transmission sécurisée vers backend avec chiffrement
 
       <mark>Cordova</mark> <mark>Ionic</mark> <mark>AngularJS</mark> <mark>Upload de fichiers</mark>
 
   - name: Interface de monitoring
-    client: Client Luxe Français
+    client: Marque Luxe Française
     platform: Web
     platform-icon: 🖥
     quote: >
-      Création d'une interface de monitoring des événements de logging d'une librairie iOS déployée sur des iPads en magasin.
+      Dashboard monitoring temps réel pour librairie iOS déployée en points de vente.
     description: | # this will include new lines to allow paragraphs
-      L'interface permet l'affichage, la détection et la compréhension d'éventuels problèmes dans les logs d'événements liés aux opérations de la librairie iOS.
-      L'interface tabulaire propose également de nombreux filtres applicables aux événements.
+      • Interface web temps réel pour monitoring événements iOS en magasins
+      • Système détection anomalies automatique avec alertes
+      • Dashboard analytique avec métriques performance et usage
+      • Filtrage avancé et recherche multi-critères dans logs
+      • Interface responsive optimisée pour monitoring opérationnel
 
       <mark>AngularJS</mark> <mark>HTML 5</mark> <mark>Smart-Table</mark>
 
   - name: DBL - Framework
-    client: Client Luxe Français
+    client: Marque Luxe Française
     platform: iOS
     platform-icon: 📱
     quote: >
-      Création d'un framework iOS compatible iOS 7+ respectant le document d'architecture fourni. Ce framework est embarqué dans l'application boutique du client, disponible dans chaque magasin de la marque, sur iPad.
+      Framework iOS distribué pour synchronisation contenu produits en points de vente iPad.
     description: | # this will include new lines to allow paragraphs
-      Le framework va chercher des .zip contenant des collections de produits, et les prix associés. Les .zip sont disponibles sur le SI du client. 
-      Le framework fait du polling sur les ressources de manière régulière, si un nouveau package est disponible, il est téléchargé,
-      extrait et son contenu est déposé dans le système de fichier de l'application qui l'embarque. Ces actions sont faites en arrière-plan et ordonnancées par le framework. 
-      Les anciennes ressources sont supprimées et les nouvelles collections de produits sont consultables sur l'application boutique.
-      
-      Le framework a un cycle de vie automatisé et loggue chacune de ses actions qu'il transmet ensuite au SI du client.
+      • Framework iOS réutilisable compatible iOS 7+ avec architecture modulaire
+      • Synchronisation automatique collections produits via polling régulier
+      • Gestion cycle vie ressources avec téléchargement, extraction et nettoyage
+      • Exécution arrière-plan avec ordonnancement tâches via GCD
+      • Logging complet actions avec transmission vers SI client
+      • Intégration transparente dans applications boutique existantes
 
       <mark>Dynamic Framework</mark> <mark>Objective-C</mark> <mark>Xcode</mark> <mark>Grand Central Dispatch (GCD)</mark>
 
@@ -192,10 +206,13 @@ contents:
     platform: Hybride
     platform-icon: 📱
     quote: >
-      Réalisation d'une application hybride de simulation de prêt pour la Casden.
+      Application hybride simulation crédit avec modules marketing et géolocalisation agences.
     description: | # this will include new lines to allow paragraphs
-      L'application permet de simuler plusieurs types de prêts avec une variation de plusieurs paramètres. Elle dispose d'une partie vitrine destinée au marketing de la Casden, 
-      d'une partie simulation de prêts destinée aux clients et futurs clients ainsi qu'une carte des agences Casden outour de vous.
+      • Moteur simulation multi-produits crédit avec paramétrage avancé
+      • Module vitrine marketing intégré avec contenu dynamique
+      • Interface client pour simulation personnalisée en temps réel
+      • Cartographie interactive agences avec géolocalisation utilisateur
+      • Architecture hybride optimisée pour déploiement multi-plateformes
 
       <mark>Cordova</mark> <mark>Ionic</mark> <mark>AngularJS</mark>
 
@@ -204,17 +221,14 @@ contents:
     platform-icon: 📱
     platform: iOS
     quote: >
-      L'application iOS Mobile Test Harness est un outil de test du SDK Transactionnel que propose HID à ses clients.
+      Outil test automatique iOS pour validation complète SDK Transactionnel HID Global.
     description: | # this will include new lines to allow paragraphs
-      Ce projet couvre la conception et développement de l'application. Pendant la conception nous avons élaboré conjointement avec les équipes HID un ensemble d'actions XML-like définissant des petits scénarios compréhensibles par l'application.
-      Ces petits scénarios sont lus et interprétés par l'application qui va ensuite exécuter les actions du scénario.
-      L'application teste ainsi 100% des points d'entrée du SDK.
-
-      * Support iOS 5 à 8.2
-      * Couverture de 100% des points d'entrée du SDK
-      * Gestion avancée du multi-threading
-      * Parsing/Mapping XML
-      * Validation XSD des scénarios de test
+      • Conception architecture test automatique avec moteur scénarios XML
+      • Interpréteur actions dynamique couvrant 100% points entrée SDK
+      • Validation XSD scénarios avec parsing/mapping XML avancé
+      • Architecture multi-threading robuste pour tests concurrents
+      • Compatibilité étendue iOS 5 à 8.2 avec gestion versions
+      • Intégration notifications push pour retours tests temps réel
 
       <mark>Xcode</mark> <mark>Objective-C</mark> <mark>CocoaPods</mark> <mark>Notifications Push</mark> <mark>GCD</mark>
 
@@ -223,10 +237,13 @@ contents:
     platform-icon: ⌚️
     platform: Android Wear
     quote: >
-      Réalisation d'une application Android Wear proposant des cadrans de montre à l'éffigie de Watchabox.
+      Collection cadrans Android Wear personnalisés avec fonctionnalités interactives avancées.
     description: | # this will include new lines to allow paragraphs
-      L'application propose une dizaine de cadrans différents, initialement conçus pour la montre ronde Motorola 360.
-      Certains cadrans proposent des fonctionnalités spécifiques, notamment un chronomètre numérique, analogique, la rotation des couronnes, ...
+      • Développement collection 10+ cadrans Android Wear personnalisés
+      • Optimisation interface circulaire pour Motorola 360 et montres rondes
+      • Implémentation fonctionnalités interactives : chronomètre, rotation couronnes
+      • Design adaptatif numérique/analogique selon préférences utilisateur
+      • Optimisation performance et autonomie pour dispositifs Wear
 
       <mark>Android</mark> <mark>Android Studio</mark> <mark>Android Wear</mark>
 
@@ -235,11 +252,13 @@ contents:
     platform-icon: 📱
     platform: iOS
     quote: >
-      Le projet ExpertPass propose aux Experts Comptables, Stagiaires et Permanents de l'Ordre
-      une carte d'identité professionnelle numérique certifiée sur appareils mobiles.
+      Carte d'identité professionnelle numérique certifiée pour experts-comptables avec système notifications
+      et partage.
     description: | # this will include new lines to allow paragraphs
-      Je suis intervenu sur un lot d'évolutions, portant sur la réceptions et le traitement de notifications push en fonction
-      du type de notification extrait du payload ainsi qu'un espace de partage de messages courts dans l'application à la façon de twitter.
+      • Développement système notifications push typées avec traitement payload spécialisé
+      • Implémentation module partage messages courts style micro-blogging
+      • Architecture notification sélective selon profil utilisateur (Expert, Stagiaire, Permanent)
+      • Interface utilisateur optimisée pour consultation identité professionnelle mobile
 
       <mark>Objective-C</mark> <mark>Xcode</mark> <mark>CocoaPods</mark> <mark>Notification Push</mark>
 
@@ -248,12 +267,13 @@ contents:
     platform-icon: 📱
     platform: iOS
     quote: >
-      Le projet EDF ENBRIN est une application mobile sur iPad qui met à disposition des partenaires énergie Bretagne innovation,
-      un ensemble de fiches explicatives afin de mettre en avant des solutions d'économies d'énergies et les bénéfices associés.
+      Application iPad de consultation documentation technique pour partenaires EDF Bretagne Innovation.
     description: | # this will include new lines to allow paragraphs
-      J'ai réalisé l'application ENBRIN pour EDF de la création à la livraison. C'est une application très simple de gestion et de visualisation de PDF marketings.
-      Ces PDF sont récupérés depuis le SI de EDF via des web services REST authentifiés. L'application propose un mode de visionnage des PDF lors des sessions de prospections et un mode d'administration
-      des PDF après authentification du partenaire EDF.
+      • Développement complet application gestion et visualisation documentation PDF marketing
+      • Synchronisation automatique contenu via services REST authentifiés SI EDF
+      • Mode consultation optimisé pour sessions prospection terrain
+      • Interface administration sécurisée avec authentification partenaire
+      • Architecture simple et robuste pour consultation hors-ligne
 
       <mark>Objective-C</mark> <mark>Xcode</mark> <mark>CocoaPods</mark> <mark>REST</mark>
   

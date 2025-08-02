@@ -2,36 +2,33 @@
 title: Projects
 contents:
   - name: Metr
-    client: Personal project (WIP)
-    platform: iOS (Soon on the AppStore)
+    client: Personal Project
+    platform: iOS
     platform-icon: 📱
     quote: > 
-      Metr is an iOS application for automated distance calculation for business trips.
+      Automated business trip distance tracking application with intelligent motion detection.
     description: | # this will include new lines to allow paragraphs
-      Define your frequent departure and arrival locations.
-      Calculation starts as soon as you leave a location, and stops when you enter a new location, even if the application is closed.
-      For non-recurring business trips, Metr supports a manual calculation mode, triggered by the user.
-
-      Using the iPhone's gyroscope and accelerometer allows the application to know if you're starting a trip by car or bicycle. 
-      You're therefore not notified when you leave a location on foot, for example.
-
-      Metr offers an export of your trips by week or month, with an estimate of associated mileage expenses based on the mileage expense
-      scale of your country.
+      • Location-based trip tracking with automatic start/stop functionality using geofencing
+      • Motion activity recognition to differentiate between car, bicycle, and pedestrian movement
+      • Manual trip recording for ad-hoc business travel
+      • Weekly/monthly trip export with mileage expense calculations
+      • Background processing with local notifications
 
       <mark>SwiftUI</mark> <mark>Combine</mark> <mark>CoreData</mark> <mark>CoreLocation</mark> <mark>MapKit</mark> <mark>Redux</mark> <mark>Geofencing</mark> <mark>Motion Activity</mark> 
       <mark>Local Notification</mark>
 
   - name: Netw
     link: https://github.com/franckclement/Netw
-    client: Personal project
+    client: Open Source Project
     platform: iOS
     platform-icon: 📱
     quote: > 
-      Netw is an open source iOS networking library.
+      Lightweight iOS networking library for REST API integration.
     description: | # this will include new lines to allow paragraphs
-      Based on URLSession, Netw allows you to quickly and easily set up an HTTP stack to consume REST web services.
-
-      This library integrates easily via Cocoapods or Carthage dependency managers.
+      • URLSession-based HTTP client with simplified API for REST services
+      • Support for multipart/form-data uploads and standard HTTP methods
+      • Integrated with popular dependency managers (CocoaPods, Carthage)
+      • Comprehensive test coverage with CI/CD pipeline
 
       <mark>URLSession</mark> <mark>multipart/formdata</mark> <mark>Cocoapods</mark> <mark>Carthage</mark> <mark>Travis CI</mark> <mark>codecov</mark>
   
@@ -40,16 +37,13 @@ contents:
     platform: iOS & Android
     platform-icon: 📱
     quote: >
-      I worked on the development of two native iOS and Android photo-taking applications.  
-      The application centralizes photos of automotive claims by folders. It also ensures synchronization with BCA's IS.
-      Photo folder synchronization is done via a bluetooth connection between the mobile application and a Windows professional tablet or through the network.
+      Native mobile applications for automotive insurance claim photo management with enterprise system integration.
     description: | # this will include new lines to allow paragraphs
-      Carpix development covers the following topics:
-      - QR Code scanner powered by ML Kit
-      - Bluetooth transfer, via RFCOMM socket
-      - Photo taking, import from gallery, copy photos from one existing folder to another, ...
-      - Synchronization of app photos with smartphone gallery
-      - Photo upload (HTTP Post + form-data)
+      • Cross-platform photo capture and organization system for insurance claims processing
+      • ML Kit-powered QR code scanning for claim identification
+      • Bluetooth RFCOMM communication with Windows tablets for data synchronization
+      • Gallery integration and photo management with HTTP upload capabilities
+      • Enterprise-grade security and data synchronization
 
       iOS : <mark>Swift</mark> <mark>RxSwift</mark> <mark>MVVM + Coordinator</mark> <mark>PhotoKit</mark> <mark>Realm</mark>
       <mark>ML Kit</mark> <mark>Fabric</mark> <mark>Firebase</mark> <mark>Fastlane</mark> <mark>Gitlab-CI</mark>  
@@ -57,42 +51,48 @@ contents:
       <mark>ML Kit</mark> <mark>Fuel</mark> <mark>Room</mark> <mark>Koin</mark> <mark>LiveData</mark> <mark>Fastlane</mark> <mark>Gitlab-CI</mark>
   
   - name: Design Studio (Ds.)
-    client: Internal (IPPON)
+    client: IPPON Technologies
     platform: iOS
     platform-icon: 📱
     platform-image-path: assets/arkit-icon.png
     quote: >
-      Development of an iOS augmented reality application based on ARKit
+      ARKit-powered augmented reality application for interactive event experiences.
     description: |
-      The Ds. application allows adding virtual content to the real world during events organized by Ippon. History of past and upcoming events are presented in the application.
-      The application is capable of detecting reference images and applies multimedia content (videos, buttons, images, ...) based on the reference image position, in real time.
+      • Real-time AR content overlay using image recognition technology
+      • Event management system with historical and upcoming event data
+      • Dynamic multimedia content positioning based on reference image detection
+      • Interactive AR elements including videos, buttons, and contextual information
 
       <mark>ARKit</mark> <mark>Image Recognition</mark> 
 
-  - name: Mobile continuous integration platform
-    client: Internal (IPPON)
+  - name: Mobile CI/CD Platform
+    client: IPPON Technologies
     platform: DevOps
     platform-icon: ⚙️
     quote: >
-      Design and implementation of an on-premise continuous integration platform
+      Enterprise-grade on-premise continuous integration platform for mobile applications.
     description: | # this will include new lines to allow paragraphs
-      The mobile continuous integration platform project at IPPON was launched to industrialize, automate and improve the quality of mobile applications.
-      The goal is to master the build chain for our internal applications as well as our clients' applications. As a bonus, we don't export any of our clients' sources outside our internal network.
-      Applications are built, tested, signed and deployed on-premise on Mac minis within the IPPON network.  
-      This platform supports native iOS and Android applications as well as Ionic, Flutter and React-Native hybrid applications.
+      • Designed and implemented secure on-premise CI/CD infrastructure using Mac mini build farm
+      • Automated build, test, code signing, and deployment pipeline for multiple platforms
+      • Support for native iOS/Android and hybrid applications (Ionic, Flutter, React Native)
+      • Enterprise security compliance with client source code isolation
+      • Presented solution at Web2Day 2019 technical conference
 
       <mark>Git</mark> <mark>GitLab</mark> <mark>GitLab-CI</mark> <mark>Gitflow</mark> <mark>Fastlane</mark> <mark>Fabric</mark>
       <mark>TestFlight</mark> <mark>AppStore</mark> <mark>Playstore</mark>
 
   - name: Fashion Community
-    client: French Luxury Client
+    client: French Luxury Brand
     platform: iOS
     platform-icon: 📱
     quote: >
-      Takeover of an existing instagram-like iOS application for a French luxury player. 90% improvement in the time needed to connect to the application, complete navigation overhaul and associated graphic redesign.
+      Performance optimization and UX redesign of social commerce application achieving 90% connection time improvement.
     description: | # this will include new lines to allow paragraphs
-      This project was carried out in three parts. First, improving application performance, particularly connection time to the application. Subsequently, a graphic and navigation redesign was carried out, replacing the burger navigation with a tabbar. 
-      And finally, functional evolutions such as adding bookmarks and boards (bookmark folders) to user profiles, allowing them to classify their favorite posts.
+      • Application performance optimization reducing connection time by 90%
+      • Complete navigation architecture overhaul from burger menu to tab-based interface
+      • UI/UX redesign and implementation of modern interface patterns
+      • Enhanced user engagement features including bookmarks and content organization
+      • Social commerce functionality with user-generated content management
 
       <mark>Swift</mark> <mark>RxSwift</mark> <mark>MVVM + Coordinator</mark> <mark>Auto Layout</mark> <mark>URL Scheme</mark>
 
@@ -103,8 +103,8 @@ contents:
     quote: >
       AssurOnLine mobile application redesign, with feature additions
     description: | # this will include new lines to allow paragraphs
-      This project was an opportunity to update AssurOne's aging application. Including an Objective-C to Swift 3 migration.  
-      Functionally, it's the addition of a quote contractualization tunnel, claim declaration and tracking as well as the graphic redesign that represented the biggest challenge.
+      • This project was an opportunity to update AssurOne's aging application. Including an Objective-C to Swift 3 migration
+      • Functionally, it's the addition of a quote contractualization tunnel, claim declaration and tracking as well as the graphic redesign that represented the biggest challenge
 
       <mark>Swift</mark> <mark>RxSwift</mark> <mark>MVVM + Coordinator</mark> <mark>Auto Layout</mark>
 
@@ -115,8 +115,8 @@ contents:
     quote: >
       AssurOnLine application takeover as white label with template management in Volkswagen group brand colors.
     description: | # this will include new lines to allow paragraphs
-      Transformation of the original AssurOnLine application to make it a white label base and apply themes in the colors of different automotive brands (VW, Audi, Skoda, Seat).
-      The project contains one target per graphic variation, with a very large part of the functional code common between each variation.
+      • Transformation of the original AssurOnLine application to make it a white label base and apply themes in the colors of different automotive brands (VW, Audi, Skoda, Seat)
+      • The project contains one target per graphic variation, with a very large part of the functional code common between each variation
 
       <mark>Objective-C</mark> <mark>Xcode</mark> <mark>CocoaPods</mark> <mark>Multi-Targets</mark>
 
@@ -127,8 +127,8 @@ contents:
     quote: >
       Development of a prospecting application for iPads with Ionic
     description: | # this will include new lines to allow paragraphs
-      The application offers a contact form for CASDEN agents at trade shows to prospect for leads. Since trade shows are not always covered by internet access, the application 
-      securely saves this information on the tablet, and synchronizes prospect files with the CASDEN network when it's available.
+      • The application offers a contact form for CASDEN agents at trade shows to prospect for leads
+      • Since trade shows are not always covered by internet access, the application securely saves this information on the tablet, and synchronizes prospect files with the CASDEN network when it's available
 
 
       <mark>Cordova</mark> <mark>Ionic</mark> <mark>AngularJS</mark> <mark>PouchDB</mark>
@@ -141,9 +141,9 @@ contents:
       Development of a native Android mobile application for unloading asbestos waste containers.
       It replaces a paper communication process between the waste burial site reception and unloading teams.
     description: | # this will include new lines to allow paragraphs
-      The application presents containers to be unloaded with either a truck plan view, representing containers as they are positioned in the truck, or a list view of containers.
-      Weighing is done automatically using an industrial scale that communicates the weight to the application. The weight of each container is then communicated to Suez's IS.
-      Agents can record anomalies during unloading if one or more containers are not compliant (wrong identifier, torn container, ...) with photo taking to document the anomaly.
+      • The application presents containers to be unloaded with either a truck plan view, representing containers as they are positioned in the truck, or a list view of containers
+      • Weighing is done automatically using an industrial scale that communicates the weight to the application. The weight of each container is then communicated to Suez's IS
+      • Agents can record anomalies during unloading if one or more containers are not compliant (wrong identifier, torn container, etc.) with photo taking to document the anomaly
 
       <mark>Android</mark> <mark>Android Studio</mark> <mark>Bluetooth</mark> <mark>RFCOMM</mark> <mark>Runtime Permissions</mark>
 
@@ -154,8 +154,8 @@ contents:
     quote: >
       Development of an evolution on the loan simulation application.
     description: | # this will include new lines to allow paragraphs
-      This evolution adds the possibility for Casden clients to send their supporting documents via the mobile application.
-      Either by taking photos from the application, or by sending photos from the gallery.
+      • This evolution adds the possibility for Casden clients to send their supporting documents via the mobile application
+      • Either by taking photos from the application, or by sending photos from the gallery
 
       <mark>Cordova</mark> <mark>Ionic</mark> <mark>AngularJS</mark> <mark>File upload</mark>
 
@@ -166,8 +166,8 @@ contents:
     quote: >
       Creation of a monitoring interface for logging events from an iOS library deployed on iPads in stores.
     description: | # this will include new lines to allow paragraphs
-      The interface allows displaying, detecting and understanding potential problems in event logs related to iOS library operations.
-      The tabular interface also offers numerous filters applicable to events.
+      • The interface allows displaying, detecting and understanding potential problems in event logs related to iOS library operations
+      • The tabular interface also offers numerous filters applicable to events
 
       <mark>AngularJS</mark> <mark>HTML 5</mark> <mark>Smart-Table</mark>
 
@@ -178,12 +178,11 @@ contents:
     quote: >
       Creation of an iOS framework compatible with iOS 7+ respecting the provided architecture document. This framework is embedded in the client's store application, available in each brand store, on iPad.
     description: | # this will include new lines to allow paragraphs
-      The framework fetches .zip files containing product collections, and associated prices. The .zip files are available on the client's IS. 
-      The framework polls resources regularly, if a new package is available, it is downloaded,
-      extracted and its content is placed in the file system of the application that embeds it. These actions are done in the background and scheduled by the framework. 
-      Old resources are deleted and new product collections are viewable on the store application.
-      
-      The framework has an automated lifecycle and logs each of its actions which it then transmits to the client's IS.
+      • The framework fetches .zip files containing product collections, and associated prices. The .zip files are available on the client's IS
+      • The framework polls resources regularly, if a new package is available, it is downloaded, extracted and its content is placed in the file system of the application that embeds it
+      • These actions are done in the background and scheduled by the framework
+      • Old resources are deleted and new product collections are viewable on the store application
+      • The framework has an automated lifecycle and logs each of its actions which it then transmits to the client's IS
 
       <mark>Dynamic Framework</mark> <mark>Objective-C</mark> <mark>Xcode</mark> <mark>Grand Central Dispatch (GCD)</mark>
 
@@ -194,8 +193,8 @@ contents:
     quote: >
       Development of a hybrid loan simulation application for Casden.
     description: | # this will include new lines to allow paragraphs
-      The application allows simulating several types of loans with variation of several parameters. It has a showcase part intended for Casden marketing, 
-      a loan simulation part intended for clients and future clients as well as a map of Casden agencies around you.
+      • The application allows simulating several types of loans with variation of several parameters
+      • It has a showcase part intended for Casden marketing, a loan simulation part intended for clients and future clients as well as a map of Casden agencies around you
 
       <mark>Cordova</mark> <mark>Ionic</mark> <mark>AngularJS</mark>
 
@@ -206,15 +205,15 @@ contents:
     quote: >
       The Mobile Test Harness iOS application is a testing tool for the Transactional SDK that HID offers to its clients.
     description: | # this will include new lines to allow paragraphs
-      This project covers the design and development of the application. During design we developed jointly with HID teams a set of XML-like actions defining small scenarios understandable by the application.
-      These small scenarios are read and interpreted by the application which will then execute the scenario actions.
-      The application thus tests 100% of the SDK entry points.
-
-      * iOS 5 to 8.2 support
-      * 100% coverage of SDK entry points
-      * Advanced multi-threading management
-      * XML Parsing/Mapping
-      * XSD validation of test scenarios
+      • This project covers the design and development of the application
+      • During design we developed jointly with HID teams a set of XML-like actions defining small scenarios understandable by the application
+      • These small scenarios are read and interpreted by the application which will then execute the scenario actions
+      • The application tests 100% of the SDK entry points
+      • iOS 5 to 8.2 support
+      • 100% coverage of SDK entry points
+      • Advanced multi-threading management
+      • XML Parsing/Mapping
+      • XSD validation of test scenarios
 
       <mark>Xcode</mark> <mark>Objective-C</mark> <mark>CocoaPods</mark> <mark>Push Notifications</mark> <mark>GCD</mark>
 
@@ -225,8 +224,8 @@ contents:
     quote: >
       Development of an Android Wear application offering watch faces in Watchabox's image.
     description: | # this will include new lines to allow paragraphs
-      The application offers about ten different watch faces, initially designed for the round Motorola 360 watch.
-      Some watch faces offer specific features, notably a digital chronometer, analog, crown rotation, ...
+      • The application offers about ten different watch faces, initially designed for the round Motorola 360 watch
+      • Some watch faces offer specific features, notably a digital chronometer, analog, crown rotation, etc.
 
       <mark>Android</mark> <mark>Android Studio</mark> <mark>Android Wear</mark>
 
@@ -238,8 +237,8 @@ contents:
       The ExpertPass project offers Chartered Accountants, Trainees and Permanents of the Order
       a certified digital professional identity card on mobile devices.
     description: | # this will include new lines to allow paragraphs
-      I worked on a batch of evolutions, focusing on receiving and processing push notifications based on
-      the notification type extracted from the payload as well as a short message sharing space in the application twitter-style.
+      • I worked on a batch of evolutions, focusing on receiving and processing push notifications based on the notification type extracted from the payload
+      • As well as a short message sharing space in the application twitter-style
 
       <mark>Objective-C</mark> <mark>Xcode</mark> <mark>CocoaPods</mark> <mark>Push Notifications</mark>
 
@@ -251,9 +250,9 @@ contents:
       The EDF ENBRIN project is a mobile application on iPad that provides Bretagne innovation energy partners,
       a set of explanatory sheets to highlight energy saving solutions and associated benefits.
     description: | # this will include new lines to allow paragraphs
-      I developed the ENBRIN application for EDF from creation to delivery. It's a very simple application for managing and viewing marketing PDFs.
-      These PDFs are retrieved from EDF's IS via authenticated REST web services. The application offers a PDF viewing mode during prospecting sessions and an administration mode
-      for PDFs after EDF partner authentication.
+      • I developed the ENBRIN application for EDF from creation to delivery. It's a very simple application for managing and viewing marketing PDFs
+      • These PDFs are retrieved from EDF's IS via authenticated REST web services
+      • The application offers a PDF viewing mode during prospecting sessions and an administration mode for PDFs after EDF partner authentication
 
       <mark>Objective-C</mark> <mark>Xcode</mark> <mark>CocoaPods</mark> <mark>REST</mark>
   

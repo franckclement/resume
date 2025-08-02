@@ -1,14 +1,15 @@
 # Experience template
-title: Expériences
+title: Expérience Professionnelle
 contents:
-  - company: IPPON Techologies
+  - company: IPPON Technologies
     link: https://fr.ippon.tech/
-    job_title: Ingénieur d'étude et développement mobile
+    job_title: Ingénieur Développement Mobile Senior
     dates: Septembre 2014 - Août 2019
     quote: >
-      Ippon est un cabinet de conseil en technologies, créé en 2002, qui accompagne ses clients de la page blanche au produit fini.
+      Cabinet de conseil technologique accompagnant les clients de la conception à la livraison produit.
     description: | # this will include new lines to allow paragraphs
-      ⚙️Mon rôle est de concevoir, développer et améliorer les projets mobiles des clients IPPON.
-      De la simple application vitrine à un instagram-like en passant par le développement de Frameworks ou d'une plateforme d'intégration continue mobile.  
-      👨🏻‍💻Je suis intervenu sur toutes les étapes de conception, réalisation et déploiement d'un projet mobile.  
-      💼J'ai également participé activement à l'obtention de nouveaux projets en participant à l'élaboration des dossiers et à la soutenance des réponses aux appels d'offres mobiles.
+      • Conception, développement et maintenance d'applications mobiles pour un portefeuille client diversifié, d'applications vitrine aux plateformes sociales complexes
+      • Direction de projets de développement mobile full-cycle incluant architecture, implémentation, tests et déploiement
+      • Mise en place de plateforme d'intégration continue mobile garantissant qualité du code et automatisation des livrables
+      • Contribution au développement commercial via préparation de propositions techniques et présentation clients pour projets mobiles
+      • Encadrement d'équipes de développement et leadership technique sur projets multiples concurrents

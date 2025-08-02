@@ -1,9 +1,12 @@
 # More Template
-title: Publications/Conférences
+title: Publications & Conférences
 content: | # this will include new lines to allow paragraphs
-  - 05/06/2019 : <img src="assets/yt-logo.png" class="youtube-logo"/> [CI Mobile : du développeur à l’appstore en un temps record - Web2day 2019](https://www.youtube.com/watch?v=tFTG_yeg8gc)
-  - 13/11/2018 : [RxSwift: How to make your favorite Delegate-based-APIs Reactive ?](https://blog.ippon.fr/2018/11/13/rxswift-how-to-make-your-favorite-delegate-based-apis-reactive/)
-  - 09/07/2018 : [L'industrialisation au service des développements Mobiles](https://blog.ippon.fr/2018/07/09/lindustrialisation-au-service-des-developpements-mobiles/)
-  - 30/08/2017 : [RxSwift: How to bind a UITableView to a datasource](https://blog.ippon.fr/2017/08/30/rxswift-how-to-bind-a-uitableview-to-a-datasource/)
-  - 02/11/2015 : [[REX] Cordova, Grunt, AngularJS, la stack Ionic pour le développement d’applications mobiles hybrides](https://blog.ippon.fr/2015/11/02/rex-cordova-grunt-angularjs-la-stack-Ionic-pour-le-developpement-dapplications-mobiles-hybrides/)
-  - 05/11/2014 : [Realm, la solution pour la persistance des données de vos applications mobiles iOS/Android ?](https://blog.ippon.fr/2014/11/05/realm-la-solution-pour-la-persistance-des-donnees-de-vos-applications-mobiles-iosandroid/)
+  **Présentations Conférences**
+  - **Web2Day 2019** (Juin 2019) : <img src="assets/yt-logo.png" class="youtube-logo"/> [CI Mobile : du développeur à l'appstore en un temps record](https://www.youtube.com/watch?v=tFTG_yeg8gc)
+
+  **Publications Techniques**
+  - **Nov 2018** : [RxSwift: How to make your favorite Delegate-based-APIs Reactive](https://blog.ippon.fr/2018/11/13/rxswift-how-to-make-your-favorite-delegate-based-apis-reactive/)
+  - **Jul 2018** : [L'industrialisation au service des développements Mobiles](https://blog.ippon.fr/2018/07/09/lindustrialisation-au-service-des-developpements-mobiles/)
+  - **Août 2017** : [RxSwift: How to bind a UITableView to a datasource](https://blog.ippon.fr/2017/08/30/rxswift-how-to-bind-a-uitableview-to-a-datasource/)
+  - **Nov 2015** : [Cordova, Grunt, AngularJS : la stack Ionic pour le développement mobile hybride](https://blog.ippon.fr/2015/11/02/rex-cordova-grunt-angularjs-la-stack-Ionic-pour-le-developpement-dapplications-mobiles-hybrides/)
+  - **Nov 2014** : [Realm : solution de persistance pour applications mobiles iOS/Android](https://blog.ippon.fr/2014/11/05/realm-la-solution-pour-la-persistance-des-donnees-de-vos-applications-mobiles-iosandroid/)

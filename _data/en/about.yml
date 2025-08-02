@@ -1,22 +1,12 @@
 # About Template
-title : About Me
+title : Professional Summary
 content : |
-  My attraction to mobile development when I discovered it in 2012 naturally led me to pursue this professional activity upon graduating in 2014.
-  Since then, I have worked on a large number of native mobile applications for Android and iOS, as well as hybrid applications using frameworks like Ionic or Flutter.
+  Senior Mobile Developer with 5+ years of experience designing and developing native and hybrid mobile applications for iOS and Android. Specialized in Swift, Kotlin, and cross-platform frameworks including Ionic and Flutter.
 
-  Drawing from these past experiences, I enjoy bringing my expertise to choosing a solution adapted to the client's needs and constraints.
-  However, I remain a strong advocate for native technologies, which I believe are best suited to provide a healthy and sustainable codebase, while ensuring rendering and navigation that meets my requirements.
+  Proven expertise in full-stack mobile development from conception to deployment, with strong focus on native technologies for optimal performance and maintainability. Early adopter of Swift (2014) with comprehensive experience in iOS ecosystem development.
 
-  I also have a strong appetite for iOS development, which translates into constant monitoring.
-  I adopted Swift as soon as it was made available to the public in 2014, first in an experimental role during the early releases, then integrating it into new iOS projects starting with version 3.0.
+  Technical leadership experience in project estimation, pre-sales activities, and solution architecture. Successfully established mobile CI/CD platforms and presented at industry conferences including Web2Day 2019.
 
-  With experience, I have been able to diversify my qualifications; participation in estimates, pre-sales, and tender presentations have allowed me to gain the necessary perspective on technical choices and a global vision of the mobile ecosystem.
-
-  My sensitivity to the final rendering of an application and its user experience has led me to participate in validating wireframes and mockups from the UX/UI Mobile team at IPPON.
-  Knowledge and understanding of the iOS ecosystem have allowed me to contribute to the proposed user journeys, always respecting the platform's guidelines.
-
-  Over the past two years, my expertise has been confirmed through the *Lead Tech* role I've taken on each project I've worked on.
-  This has given me the opportunity to set up a mobile continuous integration platform, ensuring the quality of developments and associated deliverables,
-  which I had the chance to present at Web2Day (Nantes Tech Festival) in June 2019.
+  Key strengths include UX/UI validation, platform-specific design guidelines adherence, and delivering scalable mobile solutions aligned with business requirements.
 
 profile_image: assets/profile.jpg

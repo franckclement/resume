@@ -1,21 +1,19 @@
 # Education Template
-title: Éducation
+title: Formation
 contents:
-  - name: Master ALMA
+  - name: Master en Informatique
     dates: 2012 - 2014
-    qualification: Faculté des sciences, Nantes
+    qualification: Faculté des Sciences, Université de Nantes
     description: | # this will include new lines to allow paragraphs
-      Master mention informatique avec parcours Architecture Logicielle.
-  - name: Licence informatique
+      Spécialisation Architecture Logicielle (Programme ALMA)
+  - name: Licence en Informatique
     dates: 2011 - 2012
-    qualification: Faculté des sciences, Nantes
-    description: | # this will include new lines to allow paragraphs
-      Licence informatique avec parcours informatique
-  - name: DUT informatique
+    qualification: Faculté des Sciences, Université de Nantes
+  - name: DUT Informatique
     dates: 2008 - 2010
     qualification: Institut Universitaire de Technologie, Nantes
-  - name: Obtention du Baccalauréat
+  - name: Baccalauréat Scientifique
     dates: 2008
-    qualification: Lycée Henri Bergson, Angers.
+    qualification: Lycée Henri Bergson, Angers
     description: | # this will include new lines to allow paragraphs
-      Filière scientifique, spécialité Physique-Chimie
+      Spécialité Physique-Chimie

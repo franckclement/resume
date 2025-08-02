@@ -1,21 +1,19 @@
 # Education Template
 title: Education
 contents:
-  - name: Master ALMA
+  - name: Master of Science in Computer Science
     dates: 2012 - 2014
-    qualification: Faculty of Sciences, Nantes
+    qualification: Faculty of Sciences, University of Nantes
     description: | # this will include new lines to allow paragraphs
-      Master's degree in Computer Science with Software Architecture specialization.
-  - name: Bachelor's degree in Computer Science
+      Software Architecture specialization (ALMA program)
+  - name: Bachelor of Science in Computer Science
     dates: 2011 - 2012
-    qualification: Faculty of Sciences, Nantes
-    description: | # this will include new lines to allow paragraphs
-      Bachelor's degree in Computer Science with Computer Science specialization
+    qualification: Faculty of Sciences, University of Nantes
   - name: DUT Computer Science
     dates: 2008 - 2010
     qualification: University Institute of Technology, Nantes
-  - name: High School Diploma
+  - name: Scientific Baccalauréat
     dates: 2008
-    qualification: Henri Bergson High School, Angers.
+    qualification: Henri Bergson High School, Angers
     description: | # this will include new lines to allow paragraphs
-      Scientific track, Physics-Chemistry specialization
+      Physics-Chemistry specialization
