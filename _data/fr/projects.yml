@@ -1,6 +1,32 @@
 # Project template
 title: Projets
 contents:
+  - name: Portable North Pole (PNP)
+    link: https://www.portablenorthpole.com/en
+    client: UGroup Media
+    platform: iOS & tvOS
+    platform-icon: 📱
+    quote: > 
+      Plateforme de divertissement familiale délivrant des expériences vidéo personnalisées à 15M+ utilisateurs avec l'objectif de délirer une expérience magique.
+    description: | # this will include new lines to allow paragraphs
+      • **Direction complète développement écosystème iOS** sur 659 releases de production couvrant 5 cycles de versions majeures (v7.0.5 → v11.7.0)
+      • **Architecture plateforme conversationnelle IA** permettant expériences chat personnalisées avec génération audio temps réel et gestion contexte multi-tours
+      • **Ingénierie application haute performance** servant 15M+ utilisateurs avec 99.9% taux sans crash et gestion mémoire optimisée
+      • **Construction plateforme abonnement niveau entreprise** avec OAuth multi-fournisseurs, authentification sans mot de passe et restauration achats automatique
+      • **Implémentation traitement média avancé** utilisant FFmpeg pour optimisation audio/vidéo, streaming et lecture temps réel iOS/tvOS
+      • **Livraison architecture analytics respectueuse confidentialité** avec masquage intelligent données, conformité GDPR et suivi comportement utilisateur complet
+      • **Établissement pipeline CI/CD mature** avec déploiements zéro-downtime et livraison fonctionnalités systématique via gestion releases automatisée
+
+      **Réalisations Techniques Clés:**
+      • Amélioration et optimisation des performances via framework Combine et async/await
+      • Pipeline de contenu généré par IA avec traitement automatique histoiresde bedtime stories et personnalisation
+      • Intégration de SDK Analytics avec contrôles confidentialité personnalisés
+      • Architecture cross-platform supportant expériences iOS grand public et Apple TV
+
+      <mark>Swift</mark> <mark>SwiftUI</mark> <mark>Intégration IA</mark> <mark>Combine</mark> <mark>Async/Await</mark> 
+      <mark>FFmpeg</mark> <mark>gRPC</mark> <mark>Firebase Analytics</mark> <mark>OAuth</mark> <mark>StoreKit 2</mark>
+      <mark>Crashlytics</mark> <mark>tvOS</mark> <mark>Architecture Redux</mark> <mark>Optimisation Performance</mark> <mark>CI/CD</mark> <mark>Xcode Cloud</mark>
+
   - name: Metr
     client: Projet Personnel
     platform: iOS
