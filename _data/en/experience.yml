@@ -8,7 +8,7 @@ contents:
     quote: >
       Family entertainment technology company delivering magical personalized video experiences to millions of users worldwide.
     description: | # this will include new lines to allow paragraphs
-      Led complete iOS ecosystem development for Portable North Pole, architecting and implementing AI-powered conversational platforms serving 15M+ users.
+      Led complete iOS ecosystem development for Portable North Pole, architecting and implementing AI-powered conversational platforms serving 6M users.
       Managed 659 production releases across 5 major version cycles (v7.0.5 → v11.7.0) with 99.9% crash-free rates and zero-downtime deployments.
       Engineered enterprise-grade subscription platform with multi-provider OAuth, passwordless authentication, and automatic purchase restoration.
       Implemented advanced media processing using FFmpeg for audio/video optimization, streaming, and real-time playback across iOS/tvOS platforms.

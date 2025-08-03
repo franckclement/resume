@@ -8,7 +8,7 @@ contents:
     quote: >
       Entreprise technologique de divertissement familial délivrant des expériences vidéo personnalisées magiques à des millions d'utilisateurs dans le monde.
     description: | # this will include new lines to allow paragraphs
-      Direction complète du développement écosystème iOS pour Portable North Pole, architecture et implémentation de plateformes conversationnelles IA servant 15M+ utilisateurs.
+      Direction complète du développement écosystème iOS pour Portable North Pole, architecture et implémentation de plateformes conversationnelles IA servant 6M utilisateurs.
       Gestion de 659 releases de production sur 5 cycles de versions majeures (v7.0.5 → v11.7.0) avec 99.9% taux sans crash et déploiements zéro-downtime.
       Ingénierie plateforme abonnement niveau entreprise avec OAuth multi-fournisseurs, authentification sans mot de passe et restauration achats automatique.
       Implémentation traitement média avancé utilisant FFmpeg pour optimisation audio/vidéo, streaming et lecture temps réel sur plateformes iOS/tvOS.

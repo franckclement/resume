@@ -7,11 +7,11 @@ contents:
     platform: iOS & tvOS
     platform-icon: 📱
     quote: > 
-      Plateforme de divertissement familiale délivrant des expériences vidéo personnalisées à 15M+ utilisateurs avec l'objectif de délirer une expérience magique.
+      Plateforme de divertissement familiale délivrant des expériences vidéo personnalisées à 6M utilisateurs avec l'objectif de rendre l'expérience magique.
     description: | # this will include new lines to allow paragraphs
       • **Direction complète développement écosystème iOS** sur 659 releases de production couvrant 5 cycles de versions majeures (v7.0.5 → v11.7.0)
       • **Architecture plateforme conversationnelle IA** permettant expériences chat personnalisées avec génération audio temps réel et gestion contexte multi-tours
-      • **Ingénierie application haute performance** servant 15M+ utilisateurs avec 99.9% taux sans crash et gestion mémoire optimisée
+      • **Ingénierie application haute performance** servant 6M utilisateurs avec 99.9% taux sans crash et gestion mémoire optimisée
       • **Construction plateforme abonnement niveau entreprise** avec OAuth multi-fournisseurs, authentification sans mot de passe et restauration achats automatique
       • **Implémentation traitement média avancé** utilisant FFmpeg pour optimisation audio/vidéo, streaming et lecture temps réel iOS/tvOS
       • **Livraison architecture analytics respectueuse confidentialité** avec masquage intelligent données, conformité GDPR et suivi comportement utilisateur complet
@@ -22,6 +22,18 @@ contents:
       • Pipeline de contenu généré par IA avec traitement automatique histoiresde bedtime stories et personnalisation
       • Intégration de SDK Analytics avec contrôles confidentialité personnalisés
       • Architecture cross-platform supportant expériences iOS grand public et Apple TV
+
+      **Reconnaissance Mondiale & Impact:**
+      • **App #1 Santa** sur App Store avec note 4.8 et 6M+ téléchargements
+      • **Mise en avant médias internationaux** incluant TODAY Show, New York Times, Fox News et BuzzFeed
+      • **314+ millions vidéos personnalisées créées** depuis 2008, servant familles du monde entier
+      • **Reconnaissance App of the Day** reçue annuellement au Mexique, France, États-Unis et Canada
+
+      <div style="text-align: center; margin: 20px 0;">
+        <video autoplay loop muted playsinline style="max-width: 150px; border-radius: 25px; transform: rotate(-15deg); box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+          <source src="assets/videos/app_of_the_day.mp4" type="video/mp4">
+        </video>
+      </div>
 
       <mark>Swift</mark> <mark>SwiftUI</mark> <mark>Intégration IA</mark> <mark>Combine</mark> <mark>Async/Await</mark> 
       <mark>FFmpeg</mark> <mark>gRPC</mark> <mark>Firebase Analytics</mark> <mark>OAuth</mark> <mark>StoreKit 2</mark>

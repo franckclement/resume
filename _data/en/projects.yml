@@ -7,11 +7,11 @@ contents:
     platform: iOS & tvOS
     platform-icon: 📱
     quote: > 
-      Family entertainment platform delivering personalized video experiences to 15M+ users with magical experience as it's core
+      Family entertainment platform delivering personalized video experiences to 6M users with magical experience as it's core
     description: | # this will include new lines to allow paragraphs
       • **Led complete iOS ecosystem development** across 659 production releases spanning 5 major version cycles (v7.0.5 → v11.7.0)
       • **Architected AI-powered conversational platform** enabling personalized chat experiences with real-time audio generation and multi-turn context management
-      • **Engineered high-performance application** serving 15M+ users with 99.9% crash-free rates and optimized memory management
+      • **Engineered high-performance application** serving 6M users with 99.9% crash-free rates and optimized memory management
       • **Built enterprise-grade subscription platform** with multi-provider OAuth, passwordless authentication, and automatic purchase restoration
       • **Implemented advanced media processing** using FFmpeg for audio/video optimization, streaming, and real-time playback across iOS/tvOS
       • **Delivered privacy-compliant analytics architecture** with intelligent data masking, GDPR compliance, and comprehensive user behavior tracking
@@ -22,6 +22,18 @@ contents:
       • AI-generated content pipeline with automated Bedtime Stories processing and personalization
       • Analytics SDK integration with custom privacy controls
       • Cross-platform architecture supporting both consumer iOS and Apple TV experiences
+
+      **Global Recognition & Impact:**
+      • **#1 Santa App** on App Store with 4.8 rating and 6M+ downloads
+      • **Featured by international media** including TODAY Show, New York Times, Fox News, and BuzzFeed
+      • **314+ million personalized videos created** since 2008, serving families worldwide
+      • **App of the Day recognition** received annually in Mexico, France, United States, and Canada
+
+      <div style="text-align: center; margin: 20px 0;">
+        <video autoplay loop muted playsinline style="max-width: 150px; border-radius: 25px; transform: rotate(-15deg); box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+          <source src="assets/videos/app_of_the_day.mp4" type="video/mp4">
+        </video>
+      </div>
 
       <mark>Swift</mark> <mark>SwiftUI</mark> <mark>AI Integration</mark> <mark>Combine</mark> <mark>Async/Await</mark> 
       <mark>FFmpeg</mark> <mark>gRPC</mark> <mark>Firebase Analytics</mark> <mark>OAuth</mark> <mark>StoreKit 2</mark>
